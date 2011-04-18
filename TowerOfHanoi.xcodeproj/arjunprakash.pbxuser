@@ -9,16 +9,17 @@
 	};
 	256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {509, 679}}";
+			sepNavIntBoundsRect = "{{0, 0}, {916, 637}}";
 			sepNavSelRange = "{974, 36}";
 			sepNavVisRange = "{0, 1071}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 5915}}";
-			sepNavSelRange = "{8131, 0}";
-			sepNavVisRange = "{7559, 1112}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{9174, 5098}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 14425}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 3978}}";
+			sepNavSelRange = "{8107, 0}";
+			sepNavVisRange = "{8446, 882}";
 			sepNavWindowFrame = "{{15, 23}, {546, 850}}";
 		};
 	};
@@ -37,7 +38,7 @@
 			8D1107260486CEB800E47090 /* TowerOfHanoi */,
 		);
 		breakpoints = (
-			473A77BD135C354F00436388 /* TowerOfHanoiAppDelegate.mm:194 */,
+			473A7881135C40C400436388 /* TowerOfHanoiAppDelegate.mm:197 */,
 		);
 		codeSenseManager = 47B4DDB513583DE90094D032 /* Code sense */;
 		executables = (
@@ -49,7 +50,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					289,
+					738,
 					20,
 					48,
 					43,
@@ -283,6 +284,61 @@
 			473A7808135C39C500436388 /* PBXTextBookmark */ = 473A7808135C39C500436388 /* PBXTextBookmark */;
 			473A7809135C39C500436388 /* PBXTextBookmark */ = 473A7809135C39C500436388 /* PBXTextBookmark */;
 			473A780A135C39C500436388 /* PBXTextBookmark */ = 473A780A135C39C500436388 /* PBXTextBookmark */;
+			473A780B135C3A8D00436388 /* PBXTextBookmark */ = 473A780B135C3A8D00436388 /* PBXTextBookmark */;
+			473A780C135C3A8D00436388 /* PBXTextBookmark */ = 473A780C135C3A8D00436388 /* PBXTextBookmark */;
+			473A780D135C3A8D00436388 /* PBXTextBookmark */ = 473A780D135C3A8D00436388 /* PBXTextBookmark */;
+			473A780E135C3A8D00436388 /* PBXTextBookmark */ = 473A780E135C3A8D00436388 /* PBXTextBookmark */;
+			473A7811135C3CAB00436388 /* PBXTextBookmark */ = 473A7811135C3CAB00436388 /* PBXTextBookmark */;
+			473A7812135C3CAB00436388 /* PBXTextBookmark */ = 473A7812135C3CAB00436388 /* PBXTextBookmark */;
+			473A781B135C3DA600436388 /* PBXTextBookmark */ = 473A781B135C3DA600436388 /* PBXTextBookmark */;
+			473A783C135C3E1500436388 /* PBXTextBookmark */ = 473A783C135C3E1500436388 /* PBXTextBookmark */;
+			473A7844135C3E4E00436388 /* PBXTextBookmark */ = 473A7844135C3E4E00436388 /* PBXTextBookmark */;
+			473A7845135C3E4E00436388 /* PBXTextBookmark */ = 473A7845135C3E4E00436388 /* PBXTextBookmark */;
+			473A7846135C3E4E00436388 /* PBXTextBookmark */ = 473A7846135C3E4E00436388 /* PBXTextBookmark */;
+			473A7847135C3E4E00436388 /* PBXTextBookmark */ = 473A7847135C3E4E00436388 /* PBXTextBookmark */;
+			473A7848135C3E4E00436388 /* PBXTextBookmark */ = 473A7848135C3E4E00436388 /* PBXTextBookmark */;
+			473A784A135C3E7E00436388 /* PBXTextBookmark */ = 473A784A135C3E7E00436388 /* PBXTextBookmark */;
+			473A784B135C3E7E00436388 /* XCBuildMessageTextBookmark */ = 473A784B135C3E7E00436388 /* XCBuildMessageTextBookmark */;
+			473A784C135C3E7E00436388 /* PBXTextBookmark */ = 473A784C135C3E7E00436388 /* PBXTextBookmark */;
+			473A784F135C3E8500436388 /* PBXTextBookmark */ = 473A784F135C3E8500436388 /* PBXTextBookmark */;
+			473A7853135C3F5B00436388 /* PBXTextBookmark */ = 473A7853135C3F5B00436388 /* PBXTextBookmark */;
+			473A7854135C3F5B00436388 /* PBXTextBookmark */ = 473A7854135C3F5B00436388 /* PBXTextBookmark */;
+			473A7855135C3F5B00436388 /* PBXTextBookmark */ = 473A7855135C3F5B00436388 /* PBXTextBookmark */;
+			473A7859135C3FB400436388 /* PBXTextBookmark */ = 473A7859135C3FB400436388 /* PBXTextBookmark */;
+			473A785A135C3FB400436388 /* PBXTextBookmark */ = 473A785A135C3FB400436388 /* PBXTextBookmark */;
+			473A785B135C3FB400436388 /* PBXTextBookmark */ = 473A785B135C3FB400436388 /* PBXTextBookmark */;
+			473A785C135C3FB400436388 /* PBXTextBookmark */ = 473A785C135C3FB400436388 /* PBXTextBookmark */;
+			473A785D135C3FB400436388 /* PBXTextBookmark */ = 473A785D135C3FB400436388 /* PBXTextBookmark */;
+			473A785E135C3FB400436388 /* PBXTextBookmark */ = 473A785E135C3FB400436388 /* PBXTextBookmark */;
+			473A7862135C400600436388 /* PBXTextBookmark */ = 473A7862135C400600436388 /* PBXTextBookmark */;
+			473A7863135C400600436388 /* PBXTextBookmark */ = 473A7863135C400600436388 /* PBXTextBookmark */;
+			473A7864135C400600436388 /* PBXTextBookmark */ = 473A7864135C400600436388 /* PBXTextBookmark */;
+			473A7865135C400600436388 /* PBXTextBookmark */ = 473A7865135C400600436388 /* PBXTextBookmark */;
+			473A7866135C400600436388 /* PBXTextBookmark */ = 473A7866135C400600436388 /* PBXTextBookmark */;
+			473A7879135C409300436388 /* PBXTextBookmark */ = 473A7879135C409300436388 /* PBXTextBookmark */;
+			473A787A135C409300436388 /* PBXTextBookmark */ = 473A787A135C409300436388 /* PBXTextBookmark */;
+			473A787B135C409300436388 /* PBXTextBookmark */ = 473A787B135C409300436388 /* PBXTextBookmark */;
+			473A787C135C409300436388 /* PBXTextBookmark */ = 473A787C135C409300436388 /* PBXTextBookmark */;
+			473A787D135C409300436388 /* PBXTextBookmark */ = 473A787D135C409300436388 /* PBXTextBookmark */;
+			473A787E135C409300436388 /* PBXTextBookmark */ = 473A787E135C409300436388 /* PBXTextBookmark */;
+			473A787F135C409300436388 /* PBXTextBookmark */ = 473A787F135C409300436388 /* PBXTextBookmark */;
+			473A7885135C40CA00436388 /* PBXTextBookmark */ = 473A7885135C40CA00436388 /* PBXTextBookmark */;
+			473A7886135C40CA00436388 /* PBXTextBookmark */ = 473A7886135C40CA00436388 /* PBXTextBookmark */;
+			473A7887135C40CA00436388 /* PBXTextBookmark */ = 473A7887135C40CA00436388 /* PBXTextBookmark */;
+			473A7888135C40CA00436388 /* PBXTextBookmark */ = 473A7888135C40CA00436388 /* PBXTextBookmark */;
+			473A788F135C40F600436388 /* PBXTextBookmark */ = 473A788F135C40F600436388 /* PBXTextBookmark */;
+			473A7894135C40FF00436388 /* PBXTextBookmark */ = 473A7894135C40FF00436388 /* PBXTextBookmark */;
+			473A789A135C418400436388 /* PBXTextBookmark */ = 473A789A135C418400436388 /* PBXTextBookmark */;
+			473A789B135C418400436388 /* PBXTextBookmark */ = 473A789B135C418400436388 /* PBXTextBookmark */;
+			473A789C135C418400436388 /* PBXTextBookmark */ = 473A789C135C418400436388 /* PBXTextBookmark */;
+			473A789D135C418400436388 /* PBXTextBookmark */ = 473A789D135C418400436388 /* PBXTextBookmark */;
+			473A78A1135C41FA00436388 /* PBXTextBookmark */ = 473A78A1135C41FA00436388 /* PBXTextBookmark */;
+			473A78A2135C41FA00436388 /* PBXTextBookmark */ = 473A78A2135C41FA00436388 /* PBXTextBookmark */;
+			473A78A3135C41FA00436388 /* PBXTextBookmark */ = 473A78A3135C41FA00436388 /* PBXTextBookmark */;
+			473A78A8135C420300436388 /* PBXTextBookmark */ = 473A78A8135C420300436388 /* PBXTextBookmark */;
+			473A78AA135C427000436388 /* PBXTextBookmark */ = 473A78AA135C427000436388 /* PBXTextBookmark */;
+			473A78AB135C427000436388 /* PBXTextBookmark */ = 473A78AB135C427000436388 /* PBXTextBookmark */;
+			473A78AC135C427000436388 /* PBXTextBookmark */ = 473A78AC135C427000436388 /* PBXTextBookmark */;
 			47DD5BF21358D9B5008F06D1 = 47DD5BF21358D9B5008F06D1 /* PBXTextBookmark */;
 			47DD5E0C1358DD6E008F06D1 = 47DD5E0C1358DD6E008F06D1 /* PBXTextBookmark */;
 			47DD5E0F1358DD6E008F06D1 = 47DD5E0F1358DD6E008F06D1 /* PBXTextBookmark */;
@@ -305,11 +361,18 @@
 			sepNavVisRange = "{0, 252}";
 		};
 	};
+	473A7563135982C900436388 /* TNode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 975}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 611}";
+		};
+	};
 	473A7566135982F800436388 /* Stack.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {467, 2392}}";
+			sepNavIntBoundsRect = "{{0, 0}, {916, 2483}}";
 			sepNavSelRange = "{878, 0}";
-			sepNavVisRange = "{0, 929}";
+			sepNavVisRange = "{2298, 707}";
 		};
 	};
 	473A759113598C3200436388 /* PBXTextBookmark */ = {
@@ -337,7 +400,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 271;
@@ -347,7 +410,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 402";
 		rLen = 0;
-		rLoc = 14085;
+		rLoc = 14062;
 		rType = 0;
 		vrLen = 5168;
 		vrLoc = 7912;
@@ -367,7 +430,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 402";
 		rLen = 0;
-		rLoc = 14085;
+		rLoc = 14062;
 		rType = 0;
 		vrLen = 4890;
 		vrLoc = 8190;
@@ -377,7 +440,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 402";
 		rLen = 0;
-		rLoc = 14085;
+		rLoc = 14062;
 		rType = 0;
 		vrLen = 4895;
 		vrLoc = 8180;
@@ -396,7 +459,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 410";
 		rLen = 0;
-		rLoc = 14443;
+		rLoc = 14420;
 		rType = 0;
 		vrLen = 4866;
 		vrLoc = 8214;
@@ -416,7 +479,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 217";
 		rLen = 0;
-		rLoc = 9109;
+		rLoc = 9086;
 		rType = 0;
 		vrLen = 5233;
 		vrLoc = 7847;
@@ -426,7 +489,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 411";
 		rLen = 0;
-		rLoc = 14349;
+		rLoc = 14326;
 		rType = 0;
 		vrLen = 5219;
 		vrLoc = 7915;
@@ -436,7 +499,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 409";
 		rLen = 0;
-		rLoc = 14294;
+		rLoc = 14271;
 		rType = 0;
 		vrLen = 5498;
 		vrLoc = 7709;
@@ -456,7 +519,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 174";
 		rLen = 0;
-		rLoc = 7465;
+		rLoc = 7464;
 		rType = 0;
 		vrLen = 1445;
 		vrLoc = 6598;
@@ -466,7 +529,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 174";
 		rLen = 0;
-		rLoc = 7465;
+		rLoc = 7464;
 		rType = 0;
 		vrLen = 781;
 		vrLoc = 6926;
@@ -486,7 +549,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 174";
 		rLen = 0;
-		rLoc = 7465;
+		rLoc = 7464;
 		rType = 0;
 		vrLen = 1010;
 		vrLoc = 6598;
@@ -496,7 +559,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 174";
 		rLen = 0;
-		rLoc = 7465;
+		rLoc = 7464;
 		rType = 0;
 		vrLen = 1007;
 		vrLoc = 6598;
@@ -536,7 +599,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 186";
 		rLen = 0;
-		rLoc = 7773;
+		rLoc = 7772;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 6946;
@@ -576,7 +639,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 186";
 		rLen = 0;
-		rLoc = 7773;
+		rLoc = 7772;
 		rType = 0;
 		vrLen = 1509;
 		vrLoc = 608;
@@ -586,7 +649,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 186";
 		rLen = 0;
-		rLoc = 7773;
+		rLoc = 7772;
 		rType = 0;
 		vrLen = 890;
 		vrLoc = 7285;
@@ -596,7 +659,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 189";
 		rLen = 0;
-		rLoc = 7954;
+		rLoc = 7953;
 		rType = 0;
 		vrLen = 763;
 		vrLoc = 7216;
@@ -606,7 +669,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 188";
 		rLen = 0;
-		rLoc = 7843;
+		rLoc = 7842;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 7216;
@@ -616,7 +679,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 193";
 		rLen = 0;
-		rLoc = 8085;
+		rLoc = 8062;
 		rType = 0;
 		vrLen = 683;
 		vrLoc = 7216;
@@ -626,7 +689,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 181";
 		rLen = 0;
-		rLoc = 7655;
+		rLoc = 7654;
 		rType = 0;
 		vrLen = 1005;
 		vrLoc = 6636;
@@ -636,7 +699,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 181";
 		rLen = 0;
-		rLoc = 7623;
+		rLoc = 7622;
 		rType = 0;
 		vrLen = 986;
 		vrLoc = 6636;
@@ -646,7 +709,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 197";
 		rLen = 0;
-		rLoc = 8001;
+		rLoc = 8000;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 7364;
@@ -656,7 +719,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 434";
 		rLen = 0;
-		rLoc = 14334;
+		rLoc = 14311;
 		rType = 0;
 		vrLen = 768;
 		vrLoc = 7242;
@@ -666,7 +729,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 434";
 		rLen = 0;
-		rLoc = 14341;
+		rLoc = 14318;
 		rType = 0;
 		vrLen = 844;
 		vrLoc = 7579;
@@ -694,7 +757,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 23;
@@ -724,7 +787,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 434";
 		rLen = 0;
-		rLoc = 14341;
+		rLoc = 14318;
 		rType = 0;
 		vrLen = 5772;
 		vrLoc = 7816;
@@ -734,7 +797,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 170";
 		rLen = 0;
-		rLoc = 7375;
+		rLoc = 7374;
 		rType = 0;
 		vrLen = 1913;
 		vrLoc = 5601;
@@ -744,7 +807,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 169";
 		rLen = 0;
-		rLoc = 7375;
+		rLoc = 7374;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 6778;
@@ -754,7 +817,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 170";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 6854;
@@ -764,7 +827,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 170";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 6946;
@@ -774,7 +837,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 171";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 1781;
 		vrLoc = 5708;
@@ -784,7 +847,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 171";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 1693;
 		vrLoc = 5801;
@@ -794,7 +857,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 60";
 		rLen = 0;
-		rLoc = 1047;
+		rLoc = 1080;
 		rType = 0;
 		vrLen = 909;
 		vrLoc = 333;
@@ -824,7 +887,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 171";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 6603;
@@ -834,7 +897,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 171";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 6636;
@@ -844,7 +907,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 171";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 6269;
@@ -854,7 +917,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 171";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 1222;
 		vrLoc = 6551;
@@ -864,7 +927,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 171";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 1277;
 		vrLoc = 6551;
@@ -874,7 +937,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 171";
 		rLen = 0;
-		rLoc = 7340;
+		rLoc = 7339;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 6603;
@@ -901,7 +964,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 263";
 		rLen = 0;
-		rLoc = 9538;
+		rLoc = 9515;
 		rType = 0;
 		vrLen = 1138;
 		vrLoc = 8532;
@@ -911,7 +974,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 254";
 		rLen = 0;
-		rLoc = 9262;
+		rLoc = 9239;
 		rType = 0;
 		vrLen = 1050;
 		vrLoc = 8364;
@@ -921,7 +984,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 254";
 		rLen = 0;
-		rLoc = 9262;
+		rLoc = 9239;
 		rType = 0;
 		vrLen = 1072;
 		vrLoc = 8403;
@@ -951,7 +1014,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 57";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 1029;
 		rType = 0;
 		vrLen = 910;
 		vrLoc = 331;
@@ -991,7 +1054,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 261";
 		rLen = 0;
-		rLoc = 9424;
+		rLoc = 9401;
 		rType = 0;
 		vrLen = 1470;
 		vrLoc = 8714;
@@ -1001,7 +1064,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 217";
 		rLen = 0;
-		rLoc = 8426;
+		rLoc = 8403;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 7773;
@@ -1011,7 +1074,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 0;
@@ -1031,7 +1094,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 217";
 		rLen = 0;
-		rLoc = 8426;
+		rLoc = 8403;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 7773;
@@ -1041,7 +1104,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 217";
 		rLen = 0;
-		rLoc = 8426;
+		rLoc = 8403;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 7288;
@@ -1051,7 +1114,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 217";
 		rLen = 0;
-		rLoc = 8416;
+		rLoc = 8393;
 		rType = 0;
 		vrLen = 5814;
 		vrLoc = 7879;
@@ -1065,7 +1128,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 219";
 		rLen = 0;
-		rLoc = 8332;
+		rLoc = 8309;
 		rType = 0;
 		vrLen = 1075;
 		vrLoc = 7561;
@@ -1075,7 +1138,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1085,7 +1148,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 219";
 		rLen = 0;
-		rLoc = 8332;
+		rLoc = 8309;
 		rType = 0;
 		vrLen = 1613;
 		vrLoc = 5951;
@@ -1095,7 +1158,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 219";
 		rLen = 0;
-		rLoc = 8332;
+		rLoc = 8309;
 		rType = 0;
 		vrLen = 1563;
 		vrLoc = 6001;
@@ -1105,7 +1168,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1125,7 +1188,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 39";
 		rLen = 0;
-		rLoc = 715;
+		rLoc = 748;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 0;
@@ -1135,7 +1198,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 270";
 		rLen = 0;
-		rLoc = 9424;
+		rLoc = 9401;
 		rType = 0;
 		vrLen = 1492;
 		vrLoc = 8888;
@@ -1145,7 +1208,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 273";
 		rLen = 0;
-		rLoc = 9563;
+		rLoc = 9540;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 8890;
@@ -1155,7 +1218,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1165,7 +1228,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 284";
 		rLen = 0;
-		rLoc = 9717;
+		rLoc = 9694;
 		rType = 0;
 		vrLen = 1473;
 		vrLoc = 9019;
@@ -1175,7 +1238,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1185,7 +1248,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 285";
 		rLen = 0;
-		rLoc = 9797;
+		rLoc = 9774;
 		rType = 0;
 		vrLen = 1429;
 		vrLoc = 8890;
@@ -1195,7 +1258,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1205,7 +1268,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 455";
 		rLen = 0;
-		rLoc = 14443;
+		rLoc = 14420;
 		rType = 0;
 		vrLen = 745;
 		vrLoc = 8586;
@@ -1215,7 +1278,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 285";
 		rLen = 0;
-		rLoc = 9797;
+		rLoc = 9774;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 8989;
@@ -1225,7 +1288,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1235,7 +1298,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 448";
 		rLen = 0;
-		rLoc = 14199;
+		rLoc = 14176;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 12900;
@@ -1245,7 +1308,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1255,7 +1318,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 200";
 		rLen = 0;
-		rLoc = 7954;
+		rLoc = 7953;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 7477;
@@ -1265,7 +1328,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1275,7 +1338,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 200";
 		rLen = 0;
-		rLoc = 7954;
+		rLoc = 7953;
 		rType = 0;
 		vrLen = 1147;
 		vrLoc = 8181;
@@ -1285,7 +1348,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 271;
@@ -1295,7 +1358,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 199";
 		rLen = 0;
-		rLoc = 7954;
+		rLoc = 7953;
 		rType = 0;
 		vrLen = 1039;
 		vrLoc = 7353;
@@ -1305,7 +1368,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 271;
@@ -1315,7 +1378,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1325,7 +1388,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 197";
 		rLen = 0;
-		rLoc = 7910;
+		rLoc = 7909;
 		rType = 0;
 		vrLen = 1049;
 		vrLoc = 6947;
@@ -1335,7 +1398,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 271;
@@ -1345,7 +1408,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 197";
 		rLen = 0;
-		rLoc = 7910;
+		rLoc = 7909;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 6969;
@@ -1355,7 +1418,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1365,7 +1428,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 170";
 		rLen = 0;
-		rLoc = 7342;
+		rLoc = 7341;
 		rType = 0;
 		vrLen = 1787;
 		vrLoc = 5708;
@@ -1375,7 +1438,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1385,7 +1448,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 194";
 		rLen = 0;
-		rLoc = 7849;
+		rLoc = 7848;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 7183;
@@ -1395,7 +1458,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1405,7 +1468,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 448";
 		rLen = 0;
-		rLoc = 14294;
+		rLoc = 14271;
 		rType = 0;
 		vrLen = 1129;
 		vrLoc = 12924;
@@ -1415,7 +1478,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1435,7 +1498,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1455,7 +1518,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1465,7 +1528,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 446";
 		rLen = 0;
-		rLoc = 14199;
+		rLoc = 14176;
 		rType = 0;
 		vrLen = 1139;
 		vrLoc = 12914;
@@ -1475,7 +1538,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1495,7 +1558,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1515,7 +1578,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1525,7 +1588,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 448";
 		rLen = 0;
-		rLoc = 14294;
+		rLoc = 14271;
 		rType = 0;
 		vrLen = 1159;
 		vrLoc = 12915;
@@ -1535,7 +1598,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 970;
 		vrLoc = 271;
@@ -1545,7 +1608,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 448";
 		rLen = 0;
-		rLoc = 14294;
+		rLoc = 14271;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 10445;
@@ -1565,7 +1628,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 67";
 		rLen = 0;
-		rLoc = 1220;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 271;
@@ -1575,7 +1638,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 70";
 		rLen = 0;
-		rLoc = 1254;
+		rLoc = 1287;
 		rType = 0;
 		vrLen = 961;
 		vrLoc = 333;
@@ -1595,7 +1658,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 39";
 		rLen = 0;
-		rLoc = 715;
+		rLoc = 748;
 		rType = 0;
 		vrLen = 942;
 		vrLoc = 353;
@@ -1605,7 +1668,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 448";
 		rLen = 0;
-		rLoc = 14294;
+		rLoc = 14271;
 		rType = 0;
 		vrLen = 1201;
 		vrLoc = 12857;
@@ -1615,7 +1678,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 229";
 		rLen = 0;
-		rLoc = 8560;
+		rLoc = 8537;
 		rType = 0;
 		vrLen = 1082;
 		vrLoc = 7874;
@@ -1625,7 +1688,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 229";
 		rLen = 0;
-		rLoc = 8589;
+		rLoc = 8566;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 7968;
@@ -1655,7 +1718,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 46";
 		rLen = 0;
-		rLoc = 842;
+		rLoc = 875;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 402;
@@ -1695,7 +1758,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 449";
 		rLen = 0;
-		rLoc = 14277;
+		rLoc = 14254;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 13042;
@@ -1715,7 +1778,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 441";
 		rLen = 0;
-		rLoc = 14081;
+		rLoc = 14058;
 		rType = 0;
 		vrLen = 1189;
 		vrLoc = 13011;
@@ -1725,7 +1788,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 459";
 		rLen = 0;
-		rLoc = 14441;
+		rLoc = 14418;
 		rType = 0;
 		vrLen = 1134;
 		vrLoc = 13091;
@@ -1735,7 +1798,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 449";
 		rLen = 0;
-		rLoc = 14231;
+		rLoc = 14208;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 13385;
@@ -1745,7 +1808,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 197";
 		rLen = 0;
-		rLoc = 7913;
+		rLoc = 7912;
 		rType = 0;
 		vrLen = 1138;
 		vrLoc = 7551;
@@ -1755,7 +1818,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 197";
 		rLen = 0;
-		rLoc = 7913;
+		rLoc = 7912;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 7586;
@@ -1765,7 +1828,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 193";
 		rLen = 0;
-		rLoc = 7791;
+		rLoc = 7790;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 7274;
@@ -1775,7 +1838,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 448";
 		rLen = 0;
-		rLoc = 14148;
+		rLoc = 14125;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 13340;
@@ -1785,7 +1848,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 60";
 		rLen = 0;
-		rLoc = 1047;
+		rLoc = 1080;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 402;
@@ -1925,7 +1988,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 60";
 		rLen = 0;
-		rLoc = 1047;
+		rLoc = 1080;
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 353;
@@ -1945,7 +2008,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 451";
 		rLen = 0;
-		rLoc = 14166;
+		rLoc = 14143;
 		rType = 0;
 		vrLen = 5287;
 		vrLoc = 9138;
@@ -1955,35 +2018,17 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 203";
 		rLen = 0;
-		rLoc = 7960;
+		rLoc = 7959;
 		rType = 0;
 		vrLen = 1005;
 		vrLoc = 7231;
-	};
-	473A77BD135C354F00436388 /* TowerOfHanoiAppDelegate.mm:194 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
-		functionName = "-startGame:";
-		hitCount = 2;
-		ignoreCount = 0;
-		lineNumber = 194;
-		location = TowerOfHanoi;
-		modificationTime = 324810090.652019;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	473A77C1135C355400436388 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 60";
 		rLen = 0;
-		rLoc = 1047;
+		rLoc = 1080;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 402;
@@ -2003,7 +2048,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 203";
 		rLen = 0;
-		rLoc = 7960;
+		rLoc = 7959;
 		rType = 0;
 		vrLen = 1032;
 		vrLoc = 7250;
@@ -2013,7 +2058,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 203";
 		rLen = 0;
-		rLoc = 7960;
+		rLoc = 7959;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 7310;
@@ -2033,7 +2078,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 60";
 		rLen = 0;
-		rLoc = 1047;
+		rLoc = 1080;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 0;
@@ -2053,7 +2098,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 213";
 		rLen = 0;
-		rLoc = 8128;
+		rLoc = 8105;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 7689;
@@ -2063,7 +2108,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 213";
 		rLen = 0;
-		rLoc = 8128;
+		rLoc = 8105;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 7691;
@@ -2083,7 +2128,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 22";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 466;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 0;
@@ -2093,7 +2138,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 213";
 		rLen = 0;
-		rLoc = 8128;
+		rLoc = 8105;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 7691;
@@ -2103,7 +2148,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 22";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 466;
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 0;
@@ -2113,7 +2158,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 205";
 		rLen = 0;
-		rLoc = 8034;
+		rLoc = 8011;
 		rType = 0;
 		vrLen = 1045;
 		vrLoc = 7604;
@@ -2123,7 +2168,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 22";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 466;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 0;
@@ -2133,7 +2178,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 187";
 		rLen = 0;
-		rLoc = 7652;
+		rLoc = 7651;
 		rType = 0;
 		vrLen = 1052;
 		vrLoc = 7413;
@@ -2143,7 +2188,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 22";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 466;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 0;
@@ -2153,7 +2198,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
 		name = "TowerOfHanoiAppDelegate.mm: 214";
 		rLen = 0;
-		rLoc = 8131;
+		rLoc = 8108;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 7559;
@@ -2164,7 +2209,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 22;
+		rLoc = 24;
 		rType = 1;
 	};
 	473A7804135C397C00436388 /* PBXTextBookmark */ = {
@@ -2172,7 +2217,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 25";
 		rLen = 0;
-		rLoc = 435;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 19;
@@ -2182,7 +2227,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 24";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 466;
 		rType = 0;
 		vrLen = 980;
 		vrLoc = 0;
@@ -2192,7 +2237,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 23";
 		rLen = 0;
-		rLoc = 435;
+		rLoc = 468;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 19;
@@ -2202,7 +2247,7 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 24";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 466;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 0;
@@ -2212,10 +2257,571 @@
 		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
 		name = "Disk.cpp: 22";
 		rLen = 0;
-		rLoc = 433;
+		rLoc = 466;
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 0;
+	};
+	473A780B135C3A8D00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 23";
+		rLen = 0;
+		rLoc = 468;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 0;
+	};
+	473A780C135C3A8D00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD61358DAB7008F06D1 /* Disk.h */;
+		name = "Disk.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 0;
+	};
+	473A780D135C3A8D00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 214";
+		rLen = 0;
+		rLoc = 8108;
+		rType = 0;
+		vrLen = 1112;
+		vrLoc = 7559;
+	};
+	473A780E135C3A8D00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 204";
+		rLen = 0;
+		rLoc = 8011;
+		rType = 0;
+		vrLen = 1034;
+		vrLoc = 7415;
+	};
+	473A7811135C3CAB00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 199";
+		rLen = 0;
+		rLoc = 7877;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 7415;
+	};
+	473A7812135C3CAB00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 199";
+		rLen = 0;
+		rLoc = 7877;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 7415;
+	};
+	473A781B135C3DA600436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 199";
+		rLen = 0;
+		rLoc = 7877;
+		rType = 0;
+		vrLen = 1103;
+		vrLoc = 7415;
+	};
+	473A783C135C3E1500436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 199";
+		rLen = 0;
+		rLoc = 7877;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 7437;
+	};
+	473A7844135C3E4E00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD61358DAB7008F06D1 /* Disk.h */;
+		name = "Disk.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 0;
+	};
+	473A7845135C3E4E00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 60";
+		rLen = 0;
+		rLoc = 1080;
+		rType = 0;
+		vrLen = 886;
+		vrLoc = 0;
+	};
+	473A7846135C3E4E00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */;
+		name = "TowerOfHanoiAppDelegate.h: 44";
+		rLen = 36;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 0;
+	};
+	473A7847135C3E4E00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 199";
+		rLen = 0;
+		rLoc = 7877;
+		rType = 0;
+		vrLen = 1112;
+		vrLoc = 7416;
+	};
+	473A7848135C3E4E00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 199";
+		rLen = 0;
+		rLoc = 7877;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 7480;
+	};
+	473A784A135C3E7E00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 470";
+		rLen = 0;
+		rLoc = 14420;
+		rType = 0;
+		vrLen = 5003;
+		vrLoc = 9131;
+	};
+	473A784B135C3E7E00436388 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected `;' before 'for'";
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 24;
+		rType = 1;
+	};
+	473A784C135C3E7E00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 22";
+		rLen = 0;
+		rLoc = 466;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 0;
+	};
+	473A784F135C3E8500436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 194";
+		rLen = 0;
+		rLoc = 7772;
+		rType = 0;
+		vrLen = 1025;
+		vrLoc = 7525;
+	};
+	473A7853135C3F5B00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 23";
+		rLen = 0;
+		rLoc = 468;
+		rType = 0;
+		vrLen = 855;
+		vrLoc = 0;
+	};
+	473A7854135C3F5B00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		rLen = 0;
+		rLoc = 215;
+		rType = 1;
+	};
+	473A7855135C3F5B00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 173";
+		rLen = 0;
+		rLoc = 7337;
+		rType = 0;
+		vrLen = 1574;
+		vrLoc = 6251;
+	};
+	473A7859135C3FB400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD61358DAB7008F06D1 /* Disk.h */;
+		name = "Disk.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 0;
+	};
+	473A785A135C3FB400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 60";
+		rLen = 0;
+		rLoc = 1080;
+		rType = 0;
+		vrLen = 886;
+		vrLoc = 0;
+	};
+	473A785B135C3FB400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 473A7566135982F800436388 /* Stack.h */;
+		name = "Stack.h: 49";
+		rLen = 0;
+		rLoc = 878;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 0;
+	};
+	473A785C135C3FB400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */;
+		name = "TowerOfHanoiAppDelegate.h: 44";
+		rLen = 36;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 0;
+	};
+	473A785D135C3FB400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 173";
+		rLen = 0;
+		rLoc = 7337;
+		rType = 0;
+		vrLen = 1574;
+		vrLoc = 6251;
+	};
+	473A785E135C3FB400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 174";
+		rLen = 0;
+		rLoc = 7337;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 6101;
+	};
+	473A7862135C400600436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 60";
+		rLen = 0;
+		rLoc = 1080;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 78;
+	};
+	473A7863135C400600436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD61358DAB7008F06D1 /* Disk.h */;
+		name = "Disk.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 0;
+	};
+	473A7864135C400600436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */;
+		name = "TowerOfHanoiAppDelegate.h: 44";
+		rLen = 36;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 0;
+	};
+	473A7865135C400600436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 174";
+		rLen = 0;
+		rLoc = 7337;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 6101;
+	};
+	473A7866135C400600436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 204";
+		rLen = 0;
+		rLoc = 7880;
+		rType = 0;
+		vrLen = 988;
+		vrLoc = 7613;
+	};
+	473A7879135C409300436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 60";
+		rLen = 0;
+		rLoc = 1080;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 435;
+	};
+	473A787A135C409300436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 473A7566135982F800436388 /* Stack.h */;
+		name = "Stack.h: 49";
+		rLen = 0;
+		rLoc = 878;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 2298;
+	};
+	473A787B135C409300436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 473A7563135982C900436388 /* TNode.h */;
+		name = "TNode.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 0;
+	};
+	473A787C135C409300436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD61358DAB7008F06D1 /* Disk.h */;
+		name = "Disk.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 0;
+	};
+	473A787D135C409300436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */;
+		name = "TowerOfHanoiAppDelegate.h: 44";
+		rLen = 36;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 0;
+	};
+	473A787E135C409300436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 204";
+		rLen = 0;
+		rLoc = 7880;
+		rType = 0;
+		vrLen = 988;
+		vrLoc = 7613;
+	};
+	473A787F135C409300436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 167";
+		rLen = 0;
+		rLoc = 7234;
+		rType = 0;
+		vrLen = 975;
+		vrLoc = 7412;
+	};
+	473A7881135C40C400436388 /* TowerOfHanoiAppDelegate.mm:197 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		functionName = "-startGame:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 197;
+		location = TowerOfHanoi;
+		modificationTime = 324813311.830574;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	473A7885135C40CA00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 60";
+		rLen = 0;
+		rLoc = 1080;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 468;
+	};
+	473A7886135C40CA00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */;
+		name = "TowerOfHanoiAppDelegate.h: 44";
+		rLen = 36;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 0;
+	};
+	473A7887135C40CA00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 167";
+		rLen = 0;
+		rLoc = 7234;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 7290;
+	};
+	473A7888135C40CA00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 167";
+		rLen = 0;
+		rLoc = 7234;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 7330;
+	};
+	473A788F135C40F600436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 167";
+		rLen = 0;
+		rLoc = 7234;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 13547;
+	};
+	473A7894135C40FF00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 167";
+		rLen = 0;
+		rLoc = 7234;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 13547;
+	};
+	473A789A135C418400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 60";
+		rLen = 0;
+		rLoc = 1080;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 468;
+	};
+	473A789B135C418400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */;
+		name = "TowerOfHanoiAppDelegate.h: 44";
+		rLen = 36;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 0;
+	};
+	473A789C135C418400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 167";
+		rLen = 0;
+		rLoc = 7234;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 8583;
+	};
+	473A789D135C418400436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 214";
+		rLen = 0;
+		rLoc = 8107;
+		rType = 0;
+		vrLen = 1000;
+		vrLoc = 7687;
+	};
+	473A78A1135C41FA00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 214";
+		rLen = 0;
+		rLoc = 8107;
+		rType = 0;
+		vrLen = 5939;
+		vrLoc = 8486;
+	};
+	473A78A2135C41FA00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		rLen = 0;
+		rLoc = 61;
+		rType = 1;
+	};
+	473A78A3135C41FA00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 24";
+		rLen = 0;
+		rLoc = 464;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 19;
+	};
+	473A78A8135C420300436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 24";
+		rLen = 0;
+		rLoc = 464;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 23;
+	};
+	473A78AA135C427000436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 24";
+		rLen = 0;
+		rLoc = 464;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 0;
+	};
+	473A78AB135C427000436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */;
+		name = "TowerOfHanoiAppDelegate.h: 44";
+		rLen = 36;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 0;
+	};
+	473A78AC135C427000436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 214";
+		rLen = 0;
+		rLoc = 8107;
+		rType = 0;
+		vrLen = 5979;
+		vrLoc = 8446;
 	};
 	47B4DDAA13583DCB0094D032 /* TowerOfHanoi */ = {
 		isa = PBXExecutable;
@@ -2282,15 +2888,15 @@
 	};
 	47DD5DD51358DAB7008F06D1 /* Disk.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {487, 949}}";
-			sepNavSelRange = "{433, 0}";
-			sepNavVisRange = "{0, 995}";
-			sepNavWindowFrame = "{{790, -2}, {546, 850}}";
+			sepNavIntBoundsRect = "{{0, 0}, {916, 962}}";
+			sepNavSelRange = "{464, 0}";
+			sepNavVisRange = "{0, 888}";
+			sepNavWindowFrame = "{{790, 4}, {546, 850}}";
 		};
 	};
 	47DD5DD61358DAB7008F06D1 /* Disk.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {487, 722}}";
+			sepNavIntBoundsRect = "{{0, 0}, {916, 634}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 430}";
 			sepNavWindowFrame = "{{15, 23}, {546, 850}}";

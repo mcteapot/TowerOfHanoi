@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>473A77E0135C381800436388</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>Disk.cpp</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>473A77E1135C381800436388</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>Disk.cpp</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>473A780A135C39C500436388</string>
-						<key>history</key>
-						<array>
-							<string>473A7809135C39C500436388</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {546, 753}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>790 60 546 794 0 0 1440 878 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -316,13 +275,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {170, 760}}</string>
+							<string>{{0, 0}, {170, 715}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -334,14 +293,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {187, 778}}</string>
+						<string>{{0, 0}, {187, 733}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>170</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 59 720 819 0 0 1440 878 </string>
+						<string>0 104 1169 774 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -357,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Disk.cpp</string>
+								<string>TowerOfHanoiAppDelegate.mm</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -365,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Disk.cpp</string>
+										<string>TowerOfHanoiAppDelegate.mm</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>473A7808135C39C500436388</string>
+										<string>473A78AC135C427000436388</string>
 										<key>history</key>
 										<array>
 											<string>47EDC8AD1358CEB9002D99A4</string>
@@ -383,13 +342,14 @@
 											<string>473A7627135C194500436388</string>
 											<string>473A7628135C194500436388</string>
 											<string>473A7629135C194500436388</string>
-											<string>473A76A8135C228E00436388</string>
 											<string>473A7751135C2F0F00436388</string>
 											<string>473A7752135C2F0F00436388</string>
-											<string>473A77DB135C381800436388</string>
-											<string>473A77DD135C381800436388</string>
-											<string>473A7802135C397C00436388</string>
-											<string>473A7803135C397C00436388</string>
+											<string>473A787A135C409300436388</string>
+											<string>473A787B135C409300436388</string>
+											<string>473A787C135C409300436388</string>
+											<string>473A78AA135C427000436388</string>
+											<string>473A78AB135C427000436388</string>
+											<string>473A78A1135C41FA00436388</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -401,14 +361,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {528, 736}}</string>
+								<string>{{0, 0}, {977, 691}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 59 720 819 0 0 1440 878 </string>
+								<string>0 104 1169 774 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>736pt</string>
+							<string>691pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -421,9 +381,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 741}, {528, 37}}</string>
+								<string>{{0, 696}, {977, 37}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 59 720 819 0 0 1440 878 </string>
+								<string>0 104 1169 774 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -432,7 +392,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>528pt</string>
+					<string>977pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -593,10 +553,9 @@
 		<string>47B4DDC213583ED30094D032</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoi.xcodeproj</string>
-		<string>473A77E0135C381800436388</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 59 720 819 0 0 1440 878 </string>
+	<string>0 104 1169 774 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

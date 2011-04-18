@@ -169,7 +169,8 @@ using namespace Ogre;
 			[self setRings];
 			ogTimer.reset();
 		}
-	//}  
+	//}
+
 	[startButton setTitle:@"Start"];
 
 	//NSLog(@"working %d",ringSize );
@@ -202,7 +203,6 @@ using namespace Ogre;
 		[startButton setTitle:@"Start"];
 		NSLog(@"Stoped");
 		ringSize = [ringLabel intValue];
-			delete[] theDisks;
 		[self createDisks: ringSize];
 		compute = false;
 	}
