@@ -67,3 +67,6 @@ int Disk::getPole() {
 	return diskPole;
 
 }
+int Disk::getLocation() {
+	return diskLocation;
+}

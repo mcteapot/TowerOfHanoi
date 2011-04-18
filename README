@@ -17,3 +17,6 @@ sharedlibrary apply-load-rules all
 Data Formatters temporarily unavailable, will re-try after a 'continue'. (Not safe to call dlopen at this time.)
 kill
 quit
+
+Program received signal:  “EXC_BAD_ACCESS”.
+sharedlibrary apply-load-rules all

@@ -22,7 +22,8 @@
 	//IBOutlet UILabel *display;
 	//Ogre Inits
 	Ogre::SceneNode *mObjectNode;
-    Ogre::Light *mMainLight;
+    Ogre::Light *mMainLight01;
+    Ogre::Light *mMainLight02;
 	Ogre::Timer ogTimer;
 	//Ogre nodeScene
 	Ogre::SceneNode *nodeRingA01[10];
@@ -42,5 +43,6 @@
 - (int) getRingPoll:(int) diskNum;
 - (void) solveStruct:(int) diskNum;
 - (void) solveQueue:(int) diskNum;
+- (void) setCompte;
 @end
 

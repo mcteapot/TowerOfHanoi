@@ -202,7 +202,7 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>473A7698135C219000436388</string>
+				<string>473A77E0135C381800436388</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>Disk.cpp</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
@@ -210,16 +210,16 @@
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>473A7699135C219000436388</string>
+						<string>473A77E1135C381800436388</string>
 						<key>PBXProjectModuleLabel</key>
 						<string>Disk.cpp</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>473A76DE135C247400436388</string>
+						<string>473A780A135C39C500436388</string>
 						<key>history</key>
 						<array>
-							<string>473A7688135C208000436388</string>
+							<string>473A7809135C39C500436388</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,7 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>790 54 546 794 0 0 1440 878 </string>
+				<string>790 60 546 794 0 0 1440 878 </string>
 			</dict>
 		</dict>
 	</array>
@@ -270,6 +270,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -314,7 +316,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -350,14 +352,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TowerOfHanoiAppDelegate.mm</string>
+								<string>Disk.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -365,11 +365,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TowerOfHanoiAppDelegate.mm</string>
+										<string>Disk.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>473A76DD135C247400436388</string>
+										<string>473A7808135C39C500436388</string>
 										<key>history</key>
 										<array>
 											<string>47EDC8AD1358CEB9002D99A4</string>
@@ -383,13 +383,13 @@
 											<string>473A7627135C194500436388</string>
 											<string>473A7628135C194500436388</string>
 											<string>473A7629135C194500436388</string>
-											<string>473A7678135C1F9000436388</string>
-											<string>473A767A135C1F9000436388</string>
-											<string>473A767B135C1F9000436388</string>
-											<string>473A7681135C1FC000436388</string>
 											<string>473A76A8135C228E00436388</string>
-											<string>473A76A9135C228E00436388</string>
-											<string>473A76AA135C228E00436388</string>
+											<string>473A7751135C2F0F00436388</string>
+											<string>473A7752135C2F0F00436388</string>
+											<string>473A77DB135C381800436388</string>
+											<string>473A77DD135C381800436388</string>
+											<string>473A7802135C397C00436388</string>
+											<string>473A7803135C397C00436388</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -591,9 +591,9 @@
 		<string>473A75E8135C074D00436388</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>47B4DDC213583ED30094D032</string>
-		<string>473A7698135C219000436388</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoi.xcodeproj</string>
+		<string>473A77E0135C381800436388</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 720 819 0 0 1440 878 </string>
@@ -612,12 +612,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TowerOfHanoiAppDelegate.mm</string>
+								<string>Disk.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -634,8 +636,6 @@
 							<string>512pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -688,7 +688,7 @@
 			<key>WindowToolGUID</key>
 			<string>47B4DDC213583ED30094D032</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

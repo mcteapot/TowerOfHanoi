@@ -15,6 +15,7 @@ class Disk
 	void display();
     void moveDisk(int location, int pole);
 	int getPole();
+	int getLocation();
    private:     
 	int diskSize;
 	int diskLocation;

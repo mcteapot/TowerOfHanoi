@@ -53,9 +53,11 @@ using namespace Ogre;
     
     // Create a light
     mSceneMgr->setAmbientLight(ColourValue(0, 0, 0));
-    mMainLight = mSceneMgr->createLight("MainLight");
-	mMainLight->setPosition(200,0,0);
-    
+    mMainLight01 = mSceneMgr->createLight("MainLight01");
+	mMainLight01->setPosition(200,0,0);
+    mMainLight02 = mSceneMgr->createLight("MainLight02");
+	mMainLight02->setPosition(0,0,-1000);
+	
     // Add a object, give it it's own node
     mObjectNode = mSceneMgr->getRootSceneNode()->createChildSceneNode();
     //Entity *knot = mSceneMgr->createEntity("knot", "knot.mesh");
@@ -158,19 +160,17 @@ using namespace Ogre;
 }
 
 - (void)renderFrame {
-	
+	//compute = false;
+	NSLog(@"computer: %d", compute);
     Ogre::Root::getSingleton().renderOneFrame();
-    mObjectNode->rotate(Vector3(0, 1, 0), Radian(0.01));
-	if (!compute) {
+    //mObjectNode->rotate(Vector3(0, 1, 0), Radian(0.01));
+	//if (!compute) {
 		if(ogTimer.getMilliseconds() > 250) {
 			[self setRings];
 			ogTimer.reset();
 		}
-	}  else {
-		NSLog(@"Started");
-		[self solveStruct: ringSize];
-		
-	}
+	//}  
+	[startButton setTitle:@"Start"];
 
 	//NSLog(@"working %d",ringSize );
 	
@@ -192,14 +192,17 @@ using namespace Ogre;
 // UI link to start button
 - (IBAction) startGame:(id) sender {
 	if (!compute) {
-		//TODO
-		[startButton setTitle:@"Start"];
-		NSLog(@"Started");
 		compute = true;
-	}else {
 		[startButton setTitle:@"Stop"];
+		NSLog(@"Started");
+		[self createDisks: ringSize];
+		[self solveStruct: ringSize];
+		
+	}else {
+		[startButton setTitle:@"Start"];
 		NSLog(@"Stoped");
 		ringSize = [ringLabel intValue];
+			delete[] theDisks;
 		[self createDisks: ringSize];
 		compute = false;
 	}
@@ -208,7 +211,7 @@ using namespace Ogre;
 }
 
 - (void) createDisks:(int) rSize {
-	theDisks[rSize];
+	*theDisks[rSize];
 	theDisks[1]->createArray();
 	for (int i = rSize; i > 0; i--) {
 		NSLog(@"%d",i);
@@ -228,7 +231,8 @@ using namespace Ogre;
 	
 	for (int i = 1; i <=ringSize; i++) {
 		int xSet = [self getRingPoll:(i)];
-		int ySet = ((ringSize-i)*15) + (-100); 
+		int ySet = ((theDisks[i]->getLocation()-1)*15) + (-100); 
+		//int ySet = ((ringSize-i)*15) + (-100); 
 		//int xSet = 40+j;
 		//int ySet = theDisks[i]->getPole();
 		NSLog(@"diskLocation: %d", ySet);
@@ -282,7 +286,7 @@ using namespace Ogre;
 	ogTimer.reset();
 	while (i < diskMoves) {
 		Ogre::Root::getSingleton().renderOneFrame();
-		if(ogTimer.getMilliseconds() > 500) {
+		if(ogTimer.getMilliseconds() > 400) {
 		//moves		
 			if ((i == 1) || (i%2 != 0)) { //disk 1 moves
 			cout << "moveDisk: 1" << endl;
@@ -445,11 +449,22 @@ using namespace Ogre;
 		}
 	}//Loop end
 	compute = false;
+	[self createDisks: ringSize];
 	//[startButton setTitle:@"Start"];
+	NSLog(@"this is the end of the solveStack");
 	[pool drain];
 	
 }
 - (void) solveQueue:(int) diskNum {
 	//TODO:implemnt
+}
+
+- (void) setCompte {
+	if (compute) {
+		compute = false;
+	} else {
+		compute = true;
+	}
+
 }
 @end
