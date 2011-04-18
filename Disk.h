@@ -16,6 +16,7 @@ class Disk
     void moveDisk(int location, int pole);
 	int getPole();
 	int getLocation();
+	void resetData();
    private:     
 	int diskSize;
 	int diskLocation;

@@ -1,7 +1,7 @@
 TTowerOfHanoi
 v7
 r0
-t324805684.030210
+t324819051.644220
 cCheck dependencies
 cProcessInfoPlistFile /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Info.plist TowerOfHanoi-Info.plist
 cCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/plugins.cfg plugins.cfg
@@ -7784,15 +7784,15 @@ t1285388737
 s42464
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp
-c000000004DA3FEF400000000000004DA
-t1302593268
-s1242
+c000000004DAC17DE0000000000000574
+t1303123934
+s1396
 i"Disk.h"
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.h
-c000000004DA159CD0000000000000199
-t1302419917
-s409
+c000000004DAC17BB00000000000001C2
+t1303123899
+s450
 i<iostream>
 i<cstdlib>
 i<iomanip>
@@ -7803,9 +7803,9 @@ t1302857291
 s45
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/MainMenu.xib
-c000000004DABDC6D0000000000030D48
-t1303108717
-s200008
+c000000004DAC1AF9000000000003105B
+t1303124729
+s200795
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/MtlPlat2.jpg
 c000000004DA6E0D30000000000002039
@@ -8000,9 +8000,9 @@ i<cstdlib>
 i<iostream>
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.h
-c000000004DABDC0B00000000000003FA
-t1303108619
-s1018
+c000000004DAC1A65000000000000046B
+t1303124581
+s1131
 i<Cocoa/Cocoa.h>
 i<Ogre/Ogre.h>
 i<Ogre/OSX/OgreOSXCocoaView.h>
@@ -8011,9 +8011,9 @@ i"Disk.h"
 i"Stack.h"
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm
-c000000004DABEC9A00000000000036BA
-t1303112858
-s14010
+c000000004DAC20E1000000000000399C
+t1303126241
+s14748
 i"TowerOfHanoiAppDelegate.h"
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoi_Prefix.pch
@@ -8023,196 +8023,196 @@ s155
 i<Cocoa/Cocoa.h>
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app
-t1303112869
+t1303126251
 s102
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Frameworks/Ogre.framework
-t1303105484
+t1303122134
 s204
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Info.plist
-t1303105478
+t1303122127
 s901
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi
-t1303112869
-s113528
+t1303126251
+s109616
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/PkgInfo
-t1303105478
+t1303122127
 s8
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/PlugIns/RenderSystem_GL.dylib
-t1303105484
+t1303122134
 s3044756
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1303105478
+t1303122127
 s92
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/English.lproj/MainMenu.nib
-t1303108846
-s38198
+t1303124734
+s38291
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/MtlPlat2.jpg
-t1303105478
+t1303122127
 s8249
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Pole.material
-t1303105478
+t1303122127
 s297
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Pole.mesh
-t1303105478
+t1303122128
 s8537
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring01.jpg
-t1303105478
+t1303122128
 s1163
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring01.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring01.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring02.jpg
-t1303105478
+t1303122128
 s1164
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring02.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring02.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring03.jpg
-t1303105478
+t1303122128
 s1164
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring03.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring03.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring04.jpg
-t1303105478
+t1303122128
 s1163
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring04.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring04.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring05.jpg
-t1303105478
+t1303122128
 s1164
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring05.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring05.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring06.jpg
-t1303105478
+t1303122128
 s1163
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring06.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring06.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring07.jpg
-t1303105478
+t1303122128
 s1164
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring07.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring07.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring08.jpg
-t1303105478
+t1303122128
 s1164
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring08.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring08.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring09.jpg
-t1303105478
+t1303122128
 s1164
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring09.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring09.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring10.jpg
-t1303105478
+t1303122128
 s1160
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring10.material
-t1303105478
+t1303122128
 s162
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/Ring10.mesh
-t1303105478
+t1303122128
 s55476
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/knot.material
-t1303105478
+t1303122127
 s109
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/knot.mesh
-t1303105478
+t1303122127
 s1032069
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/plugins.cfg
-t1303105478
+t1303122127
 s22
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o
-t1303105480
-s74092
+t1303124077
+s75096
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoi.LinkFileList
-c000000004DABCFC6000000000000019F
-t1303105478
+c000000004DAC10CF000000000000019F
+t1303122127
 s415
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o
-t1303112869
-s5892108
+t1303126251
+s5886616
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/main.o
-t1303105479
+t1303122128
 s5024
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/main.m
@@ -8221,10 +8221,29 @@ t1302897416
 s252
 i<Cocoa/Cocoa.h>
 
+N/Users/arjunprakash/Working/Development/TowerOfHanoi/node.h
+c000000004DA6AFDD0000000000000769
+t1302769629
+s1897
+i<iostream>
+i<cstdlib>
+i<string>
+i<ctime>
+
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/plugins.cfg
 c000000004DA853B10000000000000016
 t1302877105
 s22
+
+N/Users/arjunprakash/Working/Development/TowerOfHanoi/queue.h
+c000000004DAC16300000000000002481
+t1303123504
+s9345
+i<iostream>
+i<cstdlib>
+i<assert.h>
+i<cmath>
+i"node.h"
 
 N/var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-ababqhrbwkbcihgzxrgvdzyqyylu/TowerOfHanoi_Prefix.pch.gch
 t1302939354
@@ -8245,11 +8264,11 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies324805683#324805684#0(0"0(0#1#0"8617432480#0"0#
+lSLF07#2@18"Check dependencies324819046#324819046#0(0"0(0#1#0"8594964416#0"0#
 
 CCompileC build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s324798279.801799
-e324798280.320671
+s324816876.544980
+e324816877.065208
 r1
 xCompileC
 xbuild/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o
@@ -8258,11 +8277,11 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp324798279#324798280#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp8625158528#1833"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-ababqhrbwkbcihgzxrgvdzyqyylu/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp324816876#324816877#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp8625313312#1833"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-ababqhrbwkbcihgzxrgvdzyqyylu/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o0#
 
 CCompileC build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
-s324805660.739132
-e324805669.467206
+s324819046.153029
+e324819051.371487
 r1
 xCompileC
 xbuild/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o
@@ -8271,11 +8290,11 @@ xnormal
 xx86_64
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm324805660#324805669#0(0"0(0#0#79"/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm8620660416#1880"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-gjfidmfsdvdserhjokzgushjtqmc/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o0#
+lSLF07#2@87"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm324819046#324819051#0(0"0(0#0#79"/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm8619907360#1880"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-gjfidmfsdvdserhjokzgushjtqmc/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o0#
 
 CCompileC build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/main.o /Users/arjunprakash/Working/Development/TowerOfHanoi/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s324798279.280305
-e324798279.801697
+s324814928.512906
+e324814928.903225
 r1
 xCompileC
 xbuild/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/main.o
@@ -8284,385 +8303,385 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/main.m324798279#324798279#0(0"0(0#0#59"/Users/arjunprakash/Working/Development/TowerOfHanoi/main.m8595843008#1822"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-dpaxerwxjiszocawforgscifhnju/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/main.m -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/main.o0#
+lSLF07#2@67"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/main.m324814928#324814928#0(0"0(0#0#59"/Users/arjunprakash/Working/Development/TowerOfHanoi/main.m8619969760#1822"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-dpaxerwxjiszocawforgscifhnju/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/main.m -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/main.o0#
 
 CCompileXIB /Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/MainMenu.xib
-s324801645.823396
-e324801646.248180
+s324817533.596356
+e324817534.095661
 r1
 xCompileXIB
 x/Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib324801645#324801646#0(0"0(0#0#79"/Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/MainMenu.xib8632618848#419"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/English.lproj/MainMenu.nib /Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/MainMenu.xib --sdk /Developer-old/SDKs/MacOSX10.6.sdk0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib324817533#324817534#0(0"0(0#0#79"/Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/MainMenu.xib8647437216#419"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/English.lproj/MainMenu.nib /Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/MainMenu.xib --sdk /Developer-old/SDKs/MacOSX10.6.sdk0#
 
 CCopyStringsFile /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s324798278.366657
-e324798278.404454
+s324814927.936067
+e324814927.979410
 r1
 xCopyStringsFile
 x/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/English.lproj/InfoPlist.strings
 xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings324798278#324798278#0(0"0(0#0#84"/Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/InfoPlist.strings8620595008#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv ICONV /usr/bin/iconv    /Developer-old/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/English.lproj0#
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings324814927#324814927#0(0"0(0#0#84"/Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/InfoPlist.strings8649643808#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv ICONV /usr/bin/iconv    /Developer-old/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources/English.lproj0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/MtlPlat2.jpg Resources/MtlPlat2.jpg
-s324798278.405950
-e324798278.465315
+s324814927.982095
+e324814928.009911
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/MtlPlat2.jpg
 xResources/MtlPlat2.jpg
-lSLF07#2@27"Copy Resources/MtlPlat2.jpg324798278#324798278#0(0"0(0#0#75"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/MtlPlat2.jpg8619422432#403"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/MtlPlat2.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@27"Copy Resources/MtlPlat2.jpg324814927#324814928#0(0"0(0#0#75"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/MtlPlat2.jpg8645626976#403"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/MtlPlat2.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Pole.material Resources/Pole.material
-s324798278.411429
-e324798278.465454
+s324814927.985470
+e324814928.010037
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Pole.material
 xResources/Pole.material
-lSLF07#2@28"Copy Resources/Pole.material324798278#324798278#0(0"0(0#0#76"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Pole.material8619379168#404"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Pole.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@28"Copy Resources/Pole.material324814927#324814928#0(0"0(0#0#76"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Pole.material8644021216#404"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Pole.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Pole.mesh Resources/Pole.mesh
-s324798278.418095
-e324798278.465589
+s324814927.991755
+e324814928.010160
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Pole.mesh
 xResources/Pole.mesh
-lSLF07#2@24"Copy Resources/Pole.mesh324798278#324798278#0(0"0(0#0#72"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Pole.mesh8618244416#400"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Pole.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@24"Copy Resources/Pole.mesh324814927#324814928#0(0"0(0#0#72"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Pole.mesh8643458784#400"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Pole.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring01.jpg Resources/Ring01.jpg
-s324798278.418992
-e324798278.465722
+s324814927.993521
+e324814928.010281
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring01.jpg
 xResources/Ring01.jpg
-lSLF07#2@25"Copy Resources/Ring01.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.jpg8616749536#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring01.jpg324814927#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.jpg8642953792#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring01.material Resources/Ring01.material
-s324798278.429347
-e324798278.465856
+s324814927.995172
+e324814928.010403
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring01.material
 xResources/Ring01.material
-lSLF07#2@30"Copy Resources/Ring01.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.material8615769184#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring01.material324814927#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.material8632832160#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring01.mesh Resources/Ring01.mesh
-s324798278.430566
-e324798278.465988
+s324814928.001731
+e324814928.010528
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring01.mesh
 xResources/Ring01.mesh
-lSLF07#2@26"Copy Resources/Ring01.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.mesh8615584000#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring01.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.mesh8632048480#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring01.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring02.jpg Resources/Ring02.jpg
-s324798278.436343
-e324798278.466128
+s324814928.006022
+e324814928.036481
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring02.jpg
 xResources/Ring02.jpg
-lSLF07#2@25"Copy Resources/Ring02.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.jpg8615349280#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring02.jpg324814928#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.jpg8631713984#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring02.material Resources/Ring02.material
-s324798278.466294
-e324798278.490392
+s324814928.010692
+e324814928.035420
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring02.material
 xResources/Ring02.material
-lSLF07#2@30"Copy Resources/Ring02.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.material8632648384#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring02.material324814928#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.material8625183904#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring02.mesh Resources/Ring02.mesh
-s324798278.467055
-e324798278.490526
+s324814928.012295
+e324814928.035555
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring02.mesh
 xResources/Ring02.mesh
-lSLF07#2@26"Copy Resources/Ring02.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.mesh8632410112#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring02.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.mesh8624925440#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring02.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring03.jpg Resources/Ring03.jpg
-s324798278.468646
-e324798278.490649
+s324814928.015584
+e324814928.035682
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring03.jpg
 xResources/Ring03.jpg
-lSLF07#2@25"Copy Resources/Ring03.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.jpg8632079360#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring03.jpg324814928#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.jpg8624747104#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring03.material Resources/Ring03.material
-s324798278.471340
-e324798278.490771
+s324814928.017318
+e324814928.035802
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring03.material
 xResources/Ring03.material
-lSLF07#2@30"Copy Resources/Ring03.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.material8631929824#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring03.material324814928#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.material8624350560#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring03.mesh Resources/Ring03.mesh
-s324798278.473829
-e324798278.516839
+s324814928.021073
+e324814928.035926
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring03.mesh
 xResources/Ring03.mesh
-lSLF07#2@26"Copy Resources/Ring03.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.mesh8631781568#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring03.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.mesh8624154784#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring03.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring04.jpg Resources/Ring04.jpg
-s324798278.476897
-e324798278.490894
+s324814928.024612
+e324814928.036352
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring04.jpg
 xResources/Ring04.jpg
-lSLF07#2@25"Copy Resources/Ring04.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.jpg8631582912#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring04.jpg324814928#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.jpg8623926752#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring04.material Resources/Ring04.material
-s324798278.481342
-e324798278.491013
+s324814928.030478
+e324814928.075253
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring04.material
 xResources/Ring04.material
-lSLF07#2@30"Copy Resources/Ring04.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.material8625244224#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring04.material324814928#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.material8623856448#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring04.mesh Resources/Ring04.mesh
-s324798278.486359
-e324798278.516959
+s324814928.032242
+e324814928.075379
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring04.mesh
 xResources/Ring04.mesh
-lSLF07#2@26"Copy Resources/Ring04.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.mesh8625150304#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring04.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.mesh8623797632#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring04.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring05.jpg Resources/Ring05.jpg
-s324798278.491085
-e324798278.516214
+s324814928.036553
+e324814928.074492
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring05.jpg
 xResources/Ring05.jpg
-lSLF07#2@25"Copy Resources/Ring05.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.jpg8624962400#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring05.jpg324814928#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.jpg8622656992#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring05.material Resources/Ring05.material
-s324798278.497652
-e324798278.516479
+s324814928.039220
+e324814928.074634
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring05.material
 xResources/Ring05.material
-lSLF07#2@30"Copy Resources/Ring05.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.material8624827584#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring05.material324814928#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.material8621958432#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring05.mesh Resources/Ring05.mesh
-s324798278.504822
-e324798278.516602
+s324814928.044402
+e324814928.074760
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring05.mesh
 xResources/Ring05.mesh
-lSLF07#2@26"Copy Resources/Ring05.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.mesh8624712256#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring05.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.mesh8620793056#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring05.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring06.jpg Resources/Ring06.jpg
-s324798278.506878
-e324798278.516720
+s324814928.046475
+e324814928.074884
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring06.jpg
 xResources/Ring06.jpg
-lSLF07#2@25"Copy Resources/Ring06.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.jpg8624673120#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring06.jpg324814928#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.jpg8619913728#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring06.material Resources/Ring06.material
-s324798278.511638
-e324798278.540639
+s324814928.047122
+e324814928.075007
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring06.material
 xResources/Ring06.material
-lSLF07#2@30"Copy Resources/Ring06.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.material8624608160#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring06.material324814928#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.material8619390752#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring06.mesh Resources/Ring06.mesh
-s324798278.512478
-e324798278.540757
+s324814928.058309
+e324814928.075129
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring06.mesh
 xResources/Ring06.mesh
-lSLF07#2@26"Copy Resources/Ring06.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.mesh8624480256#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring06.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.mesh8618229760#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring06.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring07.jpg Resources/Ring07.jpg
-s324798278.517123
-e324798278.540018
+s324814928.063018
+e324814928.146126
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring07.jpg
 xResources/Ring07.jpg
-lSLF07#2@25"Copy Resources/Ring07.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.jpg8624443648#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring07.jpg324814928#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.jpg8616302304#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring07.material Resources/Ring07.material
-s324798278.521659
-e324798278.540152
+s324814928.075459
+e324814928.145180
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring07.material
 xResources/Ring07.material
-lSLF07#2@30"Copy Resources/Ring07.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.material8624269280#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring07.material324814928#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.material8606327008#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring07.mesh Resources/Ring07.mesh
-s324798278.523667
-e324798278.540276
+s324814928.078477
+e324814928.145315
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring07.mesh
 xResources/Ring07.mesh
-lSLF07#2@26"Copy Resources/Ring07.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.mesh8624116352#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring07.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.mesh8606233472#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring07.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring08.jpg Resources/Ring08.jpg
-s324798278.527793
-e324798278.540397
+s324814928.088345
+e324814928.145439
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring08.jpg
 xResources/Ring08.jpg
-lSLF07#2@25"Copy Resources/Ring08.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.jpg8624050240#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring08.jpg324814928#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.jpg8605764224#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring08.material Resources/Ring08.material
-s324798278.531785
-e324798278.540521
+s324814928.091375
+e324814928.145563
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring08.material
 xResources/Ring08.material
-lSLF07#2@30"Copy Resources/Ring08.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.material8623991392#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring08.material324814928#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.material8595232256#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring08.mesh Resources/Ring08.mesh
-s324798278.533455
-e324798278.552215
+s324814928.132026
+e324814928.145688
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring08.mesh
 xResources/Ring08.mesh
-lSLF07#2@26"Copy Resources/Ring08.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.mesh8623927488#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring08.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.mesh8650044096#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring08.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring09.jpg Resources/Ring09.jpg
-s324798278.536376
-e324798278.552338
+s324814928.134226
+e324814928.145810
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring09.jpg
 xResources/Ring09.jpg
-lSLF07#2@25"Copy Resources/Ring09.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.jpg8623885248#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring09.jpg324814928#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.jpg8648788576#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring09.material Resources/Ring09.material
-s324798278.540845
-e324798278.552087
+s324814928.136818
+e324814928.146001
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring09.material
 xResources/Ring09.material
-lSLF07#2@30"Copy Resources/Ring09.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.material8623712448#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring09.material324814928#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.material8647486784#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring09.mesh Resources/Ring09.mesh
-s324798278.549488
-e324798278.564961
+s324814928.141881
+e324814928.165813
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring09.mesh
 xResources/Ring09.mesh
-lSLF07#2@26"Copy Resources/Ring09.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.mesh8622985568#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring09.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.mesh8646490560#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring09.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring10.jpg Resources/Ring10.jpg
-s324798278.550327
-e324798278.563670
+s324814928.146200
+e324814928.165332
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring10.jpg
 xResources/Ring10.jpg
-lSLF07#2@25"Copy Resources/Ring10.jpg324798278#324798278#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.jpg8622630240#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@25"Copy Resources/Ring10.jpg324814928#324814928#0(0"0(0#0#73"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.jpg8643743680#401"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.jpg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring10.material Resources/Ring10.material
-s324798278.550884
-e324798278.564231
+s324814928.149071
+e324814928.165524
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring10.material
 xResources/Ring10.material
-lSLF07#2@30"Copy Resources/Ring10.material324798278#324798278#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.material8622555136#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@30"Copy Resources/Ring10.material324814928#324814928#0(0"0(0#0#78"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.material8641209888#406"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/Ring10.mesh Resources/Ring10.mesh
-s324798278.551424
-e324798278.566881
+s324814928.153592
+e324814928.165673
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/Ring10.mesh
 xResources/Ring10.mesh
-lSLF07#2@26"Copy Resources/Ring10.mesh324798278#324798278#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.mesh8622358496#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@26"Copy Resources/Ring10.mesh324814928#324814928#0(0"0(0#0#74"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.mesh8632146368#402"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/Ring10.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/knot.material Resources/knot.material
-s324798278.404558
-e324798278.465125
+s324814927.979507
+e324814928.009638
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/knot.material
 xResources/knot.material
-lSLF07#2@28"Copy Resources/knot.material324798278#324798278#0(0"0(0#0#76"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/knot.material8619947968#404"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/knot.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@28"Copy Resources/knot.material324814927#324814928#0(0"0(0#0#76"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/knot.material8648129344#404"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/knot.material /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/knot.mesh Resources/knot.mesh
-s324798278.405278
-e324798278.516358
+s324814927.980426
+e324814928.009779
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/knot.mesh
 xResources/knot.mesh
-lSLF07#2@24"Copy Resources/knot.mesh324798278#324798278#0(0"0(0#0#72"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/knot.mesh8619629600#400"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/knot.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@24"Copy Resources/knot.mesh324814927#324814928#0(0"0(0#0#72"/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/knot.mesh8646693600#400"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/knot.mesh /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/plugins.cfg plugins.cfg
-s324798278.365926
-e324798278.374698
+s324814927.934577
+e324814927.941915
 r1
 xCpResource
 xbuild/Debug/TowerOfHanoi.app/Contents/Resources/plugins.cfg
 xplugins.cfg
-lSLF07#2@16"Copy plugins.cfg324798278#324798278#0(0"0(0#0#64"/Users/arjunprakash/Working/Development/TowerOfHanoi/plugins.cfg8620903968#392"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/plugins.cfg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
+lSLF07#2@16"Copy plugins.cfg324814927#324814927#0(0"0(0#0#64"/Users/arjunprakash/Working/Development/TowerOfHanoi/plugins.cfg8650282496#392"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/plugins.cfg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CLd /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi normal x86_64
-s324805669.467340
-e324805669.534653
+s324819051.371686
+e324819051.641143
 r1
 xLd
 x/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi
 xnormal
 xx86_64
-lSLF07#2@114"Link /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi324805669#324805669#0(0"0(0#0#0"8619189568#816"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -L/Developer-old/Ogre3d/OSX/ogre/lib/Release -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -filelist /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoi.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Ogre /Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi0#
+lSLF07#2@114"Link /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi324819051#324819051#0(0"0(0#0#0"8600171200#816"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -L/Developer-old/Ogre3d/OSX/ogre/lib/Release -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -filelist /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoi.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Ogre /Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi0#
 
 CPBXCp build/Debug/TowerOfHanoi.app/Contents/Frameworks/Ogre.framework /Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework
-s324798284.653732
-e324798285.210044
+s324814934.862302
+e324814935.191812
 r1
 xPBXCp
 xbuild/Debug/TowerOfHanoi.app/Contents/Frameworks/Ogre.framework
 x/Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework
-lSLF07#2@62"Copy /Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework324798284#324798285#0(0"0(0#0#57"/Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework8624745888#386"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Frameworks0#
+lSLF07#2@62"Copy /Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework324814934#324814935#0(0"0(0#0#57"/Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework8619731040#386"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Frameworks0#
 
 CPBXCp build/Debug/TowerOfHanoi.app/Contents/PlugIns/RenderSystem_GL.dylib /Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib
-s324798284.628342
-e324798284.653628
+s324814934.849977
+e324814934.862098
 r1
 xPBXCp
 xbuild/Debug/TowerOfHanoi.app/Contents/PlugIns/RenderSystem_GL.dylib
 x/Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib
-lSLF07#2@69"Copy /Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib324798284#324798284#0(0"0(0#0#64"/Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib8624898784#390"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/PlugIns0#
+lSLF07#2@69"Copy /Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib324814934#324814934#0(0"0(0#0#64"/Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib8619947776#390"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/PlugIns0#
 
 CProcessInfoPlistFile /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Info.plist TowerOfHanoi-Info.plist
-s324798278.361729
-e324798278.365853
+s324814927.918169
+e324814927.934469
 r1
 xProcessInfoPlistFile
 x/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Info.plist
 xTowerOfHanoi-Info.plist
-lSLF07#2@31"Process TowerOfHanoi-Info.plist324798278#324798278#0(0"0(0#0#76"/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoi-Info.plist8621656064#367"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    builtin-infoPlistUtility TowerOfHanoi-Info.plist -genpkginfo /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Info.plist0#
+lSLF07#2@31"Process TowerOfHanoi-Info.plist324814927#324814927#0(0"0(0#0#76"/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoi-Info.plist8617570816#367"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    builtin-infoPlistUtility TowerOfHanoi-Info.plist -genpkginfo /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Info.plist0#
 
 CProcessPCH /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-dpaxerwxjiszocawforgscifhnju/TowerOfHanoi_Prefix.pch.gch TowerOfHanoi_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -8674,10 +8693,10 @@ CProcessPCH++ /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xco
 r0
 
 CTouch /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app
-s324805669.534899
-e324805669.537696
+s324819051.641415
+e324819051.644175
 r1
 xTouch
 x/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app
-lSLF07#2@87"Touch /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app324805669#324805669#0(0"0(0#0#0"8637830976#164"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /usr/bin/touch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app0#
+lSLF07#2@87"Touch /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app324819051#324819051#0(0"0(0#0#0"8621375264#164"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /usr/bin/touch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app0#
 

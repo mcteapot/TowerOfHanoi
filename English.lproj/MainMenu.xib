@@ -12,8 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="29"/>
-			<integer value="372"/>
+			<integer value="491"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1329,6 +1328,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{20, 20}, {435, 296}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<string key="NSClassName">OgreView</string>
 						</object>
 						<object class="NSTextField" id="860038922">
@@ -1336,6 +1336,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{170, 330}, {29, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="718853240">
 								<int key="NSCellFlags">68288064</int>
@@ -1372,6 +1373,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{391, 320}, {70, 32}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="366037724">
 								<int key="NSCellFlags">67239424</int>
@@ -1392,6 +1394,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{18, 326}, {131, 21}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="586799816">
 								<int key="NSCellFlags">-2080244224</int>
@@ -1413,6 +1416,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{230, 325}, {122, 24}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSegmentedCell" key="NSCell" id="521316780">
 								<int key="NSCellFlags">67239424</int>
@@ -1442,6 +1446,7 @@
 					</object>
 					<string key="NSFrameSize">{480, 360}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
@@ -2168,6 +2173,14 @@
 					</object>
 					<int key="connectionID">555</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">dataStructureAction:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="491455361"/>
+					</object>
+					<int key="connectionID">556</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -2206,10 +2219,10 @@
 							<reference ref="713487014"/>
 							<reference ref="694149608"/>
 							<reference ref="952259628"/>
-							<reference ref="379814623"/>
 							<reference ref="586577488"/>
 							<reference ref="302598603"/>
 							<reference ref="448692316"/>
+							<reference ref="379814623"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -3685,9 +3698,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{292, 83}, {480, 360}}</string>
+					<string>{{260, 34}, {480, 360}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{292, 83}, {480, 360}}</string>
+					<string>{{260, 34}, {480, 360}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -3743,7 +3756,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{725, 289}, {246, 23}}</string>
+					<string>{{877, 812}, {204, 23}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3823,7 +3836,7 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{452, 109}, {196, 203}}</string>
+					<string>{{604, 632}, {196, 203}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{145, 474}, {199, 203}}</string>
@@ -3851,7 +3864,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">555</int>
+			<int key="maxID">556</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3863,11 +3876,13 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>dataStructureAction:</string>
 							<string>ringCountAction:</string>
 							<string>startGame:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -3876,11 +3891,16 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>dataStructureAction:</string>
 							<string>ringCountAction:</string>
 							<string>startGame:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBActionInfo">
+								<string key="name">dataStructureAction:</string>
+								<string key="candidateClassName">id</string>
+							</object>
 							<object class="IBActionInfo">
 								<string key="name">ringCountAction:</string>
 								<string key="candidateClassName">id</string>

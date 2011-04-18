@@ -20,8 +20,8 @@ Disk::~Disk() {
 }
 
 void Disk::createArray() {
-	diskCount = 0;
-	diskPole = 1;
+	//diskCount = 0;
+	//diskPole = 1;
 	for (int i = 0; i < 10; i++) {
 		for (int j = 0; j < 3; j++) {
 			thePlaces[i][j] = 0;
@@ -29,6 +29,11 @@ void Disk::createArray() {
 	}
 
 
+}
+
+void Disk::resetData() {
+	diskCount = 0;
+	diskPole = 1;
 }
 
 void Disk::displayArray() {

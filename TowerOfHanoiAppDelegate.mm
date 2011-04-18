@@ -2,7 +2,7 @@
 //  TowerOfHanoiAppDelegate.m
 //  TowerOfHanoi
 //
-//  Created by arjun prakash on 4/15/11.
+//  Created by mcteapot on 4/15/11.
 //  Copyright 2011 bellmonde. All rights reserved.
 //
 
@@ -41,7 +41,7 @@ using namespace Ogre;
 	xStart = -200;
 	yStart = -100;
 	compute = false;
-	dataStructure = 1;
+	dataStructure = 0;
 	
 	
 	// Create the camera, node & attach camera
@@ -58,12 +58,14 @@ using namespace Ogre;
     mMainLight02 = mSceneMgr->createLight("MainLight02");
 	mMainLight02->setPosition(0,0,-1000);
 	
-    // Add a object, give it it's own node
-    mObjectNode = mSceneMgr->getRootSceneNode()->createChildSceneNode();
+    
+	// Add a object, give it it's own node
+    //mObjectNode = mSceneMgr->getRootSceneNode()->createChildSceneNode();
     //Entity *knot = mSceneMgr->createEntity("knot", "knot.mesh");
-    Entity *knot = mSceneMgr->createEntity("knot", "knot.mesh");
-    mObjectNode->attachObject(knot);
-    mObjectNode->setPosition(Vector3(0, 0, -500));
+    //Entity *knot = mSceneMgr->createEntity("knot", "knot.mesh");
+    //mObjectNode->attachObject(knot);
+    //mObjectNode->setPosition(Vector3(0, 0, -500));
+	
 	
 	//create a sceneSceneNode Poles
 	SceneNode *nodePollA = mSceneMgr->createSceneNode("NodeA");
@@ -161,7 +163,7 @@ using namespace Ogre;
 
 - (void)renderFrame {
 	//compute = false;
-	NSLog(@"computer: %d", compute);
+	//NSLog(@"computer: %d", compute);
     Ogre::Root::getSingleton().renderOneFrame();
     //mObjectNode->rotate(Vector3(0, 1, 0), Radian(0.01));
 	//if (!compute) {
@@ -181,7 +183,7 @@ using namespace Ogre;
 - (IBAction) ringCountAction:(id) sender {
 
 	[ringLabel setIntValue:[sender intValue]];
-	NSLog(@"ringSize %d",ringSize );
+	//NSLog(@"ringSize %d",ringSize );
 	//NSLog(@"string %@",[sender stringValue]);
 	if (!compute) {
 		ringSize = [sender intValue];
@@ -190,18 +192,29 @@ using namespace Ogre;
 
 	
 }
+// UI link to segment view
+- (IBAction) dataStructureAction:(id) sender {
+	NSLog(@"sender: %d", [sender selectedSegment]);
+	dataStructure = [sender selectedSegment];
+	
+}
 // UI link to start button
 - (IBAction) startGame:(id) sender {
 	if (!compute) {
 		compute = true;
 		[startButton setTitle:@"Stop"];
-		NSLog(@"Started");
-		[self createDisks: ringSize];
-		[self solveStruct: ringSize];
+		//NSLog(@"Started");
+		if (dataStructure == 0) {
+			[self createDisks: ringSize];
+			[self solveStruct: ringSize];
+		} else if (dataStructure == 1) {
+			NSLog(@"Queue");
+			compute = false;
+		}
 		
 	}else {
 		[startButton setTitle:@"Start"];
-		NSLog(@"Stoped");
+		//NSLog(@"Stoped");
 		ringSize = [ringLabel intValue];
 		[self createDisks: ringSize];
 		compute = false;
@@ -213,9 +226,11 @@ using namespace Ogre;
 - (void) createDisks:(int) rSize {
 	*theDisks[rSize];
 	theDisks[1]->createArray();
+	
 	for (int i = rSize; i > 0; i--) {
-		NSLog(@"%d",i);
+		//NSLog(@"%d",i);
 		theDisks[i] = new Disk(i);
+		theDisks[i]->resetData();
 	}
 	//set disks
 	int locationCounter = rSize;
@@ -235,14 +250,14 @@ using namespace Ogre;
 		//int ySet = ((ringSize-i)*15) + (-100); 
 		//int xSet = 40+j;
 		//int ySet = theDisks[i]->getPole();
-		NSLog(@"diskLocation: %d", ySet);
+		//NSLog(@"diskLocation: %d", ySet);
 		nodeRingA01[(i-1)]->setPosition((float)xSet,(float)ySet,-500);
 		
 	}
 	for (int i = ringSize; i < 10; i++) {
 		nodeRingA01[i]->setPosition(-200,-400,-500);
 	}
-		theDisks[1]->displayArray();
+		//theDisks[1]->displayArray();
 }
 - (int) getRingPoll:(int) diskNum {
 	switch (theDisks[diskNum]->getPole()) {
@@ -455,9 +470,11 @@ using namespace Ogre;
 	[pool drain];
 	
 }
+
 - (void) solveQueue:(int) diskNum {
-	//TODO:implemnt
+	//TODO
 }
+
 
 - (void) setCompte {
 	if (compute) {
