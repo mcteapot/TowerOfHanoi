@@ -1,0 +1,19 @@
+
+  TowerOfHanoi
+
+  Created by mcteapot on 4/15/11.
+  Copyright 2011 bellmonde. All rights reserved.
+
+When compiling the app, make sure ogre is installed and the target search folders are pointing to the right spots. 
+The application was built what a version Ogre 1 7.
+
+Enjoy
+
+Bug 000001:
+-when compiling some times receives error or just goes into freezes into a loop
+
+Program received signal:  “EXC_BAD_ACCESS”.
+sharedlibrary apply-load-rules all
+Data Formatters temporarily unavailable, will re-try after a 'continue'. (Not safe to call dlopen at this time.)
+kill
+quit

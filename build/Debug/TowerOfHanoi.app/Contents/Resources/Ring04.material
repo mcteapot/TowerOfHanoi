@@ -1,0 +1,18 @@
+// Materials for Ring04
+
+material Ring04
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.80 0.80 0.80 1.00
+			
+			texture_unit
+			{
+				texture Ring04.jpg
+			}
+		}
+	}
+}
+

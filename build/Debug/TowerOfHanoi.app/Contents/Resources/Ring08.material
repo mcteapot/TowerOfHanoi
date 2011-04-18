@@ -1,0 +1,18 @@
+// Materials for Ring08
+
+material Ring08
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.80 0.80 0.80 1.00
+			
+			texture_unit
+			{
+				texture Ring08.jpg
+			}
+		}
+	}
+}
+

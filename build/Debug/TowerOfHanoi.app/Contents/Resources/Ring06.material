@@ -1,0 +1,18 @@
+// Materials for Ring06
+
+material Ring06
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.80 0.80 0.80 1.00
+			
+			texture_unit
+			{
+				texture Ring06.jpg
+			}
+		}
+	}
+}
+

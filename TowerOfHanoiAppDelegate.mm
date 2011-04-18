@@ -41,6 +41,7 @@ using namespace Ogre;
 	xStart = -200;
 	yStart = -100;
 	compute = false;
+	dataStructure = 1;
 	
 	
 	// Create the camera, node & attach camera
@@ -165,21 +166,46 @@ using namespace Ogre;
 			[self setRings];
 			ogTimer.reset();
 		}
+	}  else {
+		NSLog(@"Started");
+		[self solveStruct: ringSize];
+		
 	}
+
 	//NSLog(@"working %d",ringSize );
 	
 }
 
-// UI
+// UI link to slider
 - (IBAction) ringCountAction:(id) sender {
-	ringSize = [sender intValue];
+
 	[ringLabel setIntValue:[sender intValue]];
 	NSLog(@"ringSize %d",ringSize );
 	//NSLog(@"string %@",[sender stringValue]);
-	[self createDisks: ringSize];
+	if (!compute) {
+		ringSize = [sender intValue];
+		[self createDisks: ringSize];
+	}
+
 	
 }
+// UI link to start button
+- (IBAction) startGame:(id) sender {
+	if (!compute) {
+		//TODO
+		[startButton setTitle:@"Start"];
+		NSLog(@"Started");
+		compute = true;
+	}else {
+		[startButton setTitle:@"Stop"];
+		NSLog(@"Stoped");
+		ringSize = [ringLabel intValue];
+		[self createDisks: ringSize];
+		compute = false;
+	}
 
+
+}
 
 - (void) createDisks:(int) rSize {
 	theDisks[rSize];
@@ -188,6 +214,14 @@ using namespace Ogre;
 		NSLog(@"%d",i);
 		theDisks[i] = new Disk(i);
 	}
+	//set disks
+	int locationCounter = rSize;
+	for (int i = 1; i <= rSize; i++) {
+		
+		theDisks[i]->moveDisk(locationCounter, 1);
+		locationCounter--;
+	}
+	//theDisks[1]->displayArray();
 	
 }
 - (void) setRings {
@@ -204,6 +238,7 @@ using namespace Ogre;
 	for (int i = ringSize; i < 10; i++) {
 		nodeRingA01[i]->setPosition(-200,-400,-500);
 	}
+		theDisks[1]->displayArray();
 }
 - (int) getRingPoll:(int) diskNum {
 	switch (theDisks[diskNum]->getPole()) {
@@ -224,16 +259,20 @@ using namespace Ogre;
 }
 
 - (void) solveStruct:(int) diskNum {
-	compute = true;
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	//compute = true;
 	int even;
 	int moveOne = 1;
     int tempMove,tempSize;
     int moveSmall, moveSmallPoll;
     int topA, topB, topC;
-	Stack<int> nStackA(ringSize);
-	Stack<int> nStackB(ringSize);
-	Stack<int> nStackC(ringSize);
-	int diskMoves = int(std::pow((float)2, (float)ringSize));
+	Stack<int> nStackA(diskNum);
+	Stack<int> nStackB(diskNum);
+	Stack<int> nStackC(diskNum);
+	int diskMoves = int(std::pow((float)2, (float)diskNum));
+	for (int i = diskNum; i > 0; i--) {
+		nStackA.push(i);
+	}
 	if (ringSize%2 == 0) {
 		even = 1;
 	} else {
@@ -242,7 +281,8 @@ using namespace Ogre;
 	int i=1;
 	ogTimer.reset();
 	while (i < diskMoves) {
-		if(ogTimer.getMilliseconds() > 250) {
+		Ogre::Root::getSingleton().renderOneFrame();
+		if(ogTimer.getMilliseconds() > 500) {
 		//moves		
 			if ((i == 1) || (i%2 != 0)) { //disk 1 moves
 			cout << "moveDisk: 1" << endl;
@@ -404,7 +444,12 @@ using namespace Ogre;
 			ogTimer.reset();
 		}
 	}//Loop end
-	compute = false;	
+	compute = false;
+	//[startButton setTitle:@"Start"];
+	[pool drain];
 	
+}
+- (void) solveQueue:(int) diskNum {
+	//TODO:implemnt
 }
 @end

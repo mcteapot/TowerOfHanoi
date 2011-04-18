@@ -18,6 +18,7 @@
     IBOutlet OgreView *mOgreView;
 	//Cocoa Inits
 	IBOutlet NSTextField *ringLabel;
+	IBOutlet NSButton *startButton;
 	//IBOutlet UILabel *display;
 	//Ogre Inits
 	Ogre::SceneNode *mObjectNode;
@@ -28,16 +29,18 @@
 	int ringSize;
 	float xStart, yStart;
 	bool compute;
+	int dataStructure;
 	Disk *theDisks[];
 }
 
 - (IBAction) ringCountAction:(id) sender;
+- (IBAction) startGame:(id) sender;
 
 - (void) createDisks:(int) rSize;
 
 - (void) setRings;
 - (int) getRingPoll:(int) diskNum;
 - (void) solveStruct:(int) diskNum;
-- (bool) solveQueue:(int) diskNum;
+- (void) solveQueue:(int) diskNum;
 @end
 
