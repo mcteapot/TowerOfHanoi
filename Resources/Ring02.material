@@ -1,0 +1,18 @@
+// Materials for Ring02
+
+material Ring02
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.80 0.80 0.80 1.00
+			
+			texture_unit
+			{
+				texture Ring02.jpg
+			}
+		}
+	}
+}
+

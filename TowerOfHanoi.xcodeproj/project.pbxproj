@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */; };
+		47DD5C101358D9C1008F06D1 /* Ring03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5BF81358D9C1008F06D1 /* Ring03.jpg */; };
+		47DD5C111358D9C1008F06D1 /* Ring03.material in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5BF91358D9C1008F06D1 /* Ring03.material */; };
+		47DD5C121358D9C1008F06D1 /* Ring03.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5BFA1358D9C1008F06D1 /* Ring03.mesh */; };
+		47DD5C131358D9C1008F06D1 /* Ring04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5BFB1358D9C1008F06D1 /* Ring04.jpg */; };
+		47DD5C141358D9C1008F06D1 /* Ring04.material in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5BFC1358D9C1008F06D1 /* Ring04.material */; };
+		47DD5C151358D9C1008F06D1 /* Ring04.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5BFD1358D9C1008F06D1 /* Ring04.mesh */; };
+		47DD5C161358D9C1008F06D1 /* Ring05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5BFE1358D9C1008F06D1 /* Ring05.jpg */; };
+		47DD5C171358D9C1008F06D1 /* Ring05.material in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5BFF1358D9C1008F06D1 /* Ring05.material */; };
+		47DD5C181358D9C1008F06D1 /* Ring05.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C001358D9C1008F06D1 /* Ring05.mesh */; };
+		47DD5C191358D9C1008F06D1 /* Ring06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C011358D9C1008F06D1 /* Ring06.jpg */; };
+		47DD5C1A1358D9C1008F06D1 /* Ring06.material in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C021358D9C1008F06D1 /* Ring06.material */; };
+		47DD5C1B1358D9C1008F06D1 /* Ring06.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C031358D9C1008F06D1 /* Ring06.mesh */; };
+		47DD5C1C1358D9C1008F06D1 /* Ring07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C041358D9C1008F06D1 /* Ring07.jpg */; };
+		47DD5C1D1358D9C1008F06D1 /* Ring07.material in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C051358D9C1008F06D1 /* Ring07.material */; };
+		47DD5C1E1358D9C1008F06D1 /* Ring07.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C061358D9C1008F06D1 /* Ring07.mesh */; };
+		47DD5C1F1358D9C1008F06D1 /* Ring08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C071358D9C1008F06D1 /* Ring08.jpg */; };
+		47DD5C201358D9C1008F06D1 /* Ring08.material in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C081358D9C1008F06D1 /* Ring08.material */; };
+		47DD5C211358D9C1008F06D1 /* Ring08.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C091358D9C1008F06D1 /* Ring08.mesh */; };
+		47DD5C221358D9C1008F06D1 /* Ring09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C0A1358D9C1008F06D1 /* Ring09.jpg */; };
+		47DD5C231358D9C1008F06D1 /* Ring09.material in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C0B1358D9C1008F06D1 /* Ring09.material */; };
+		47DD5C241358D9C1008F06D1 /* Ring09.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C0C1358D9C1008F06D1 /* Ring09.mesh */; };
+		47DD5C251358D9C1008F06D1 /* Ring10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C0D1358D9C1008F06D1 /* Ring10.jpg */; };
+		47DD5C261358D9C1008F06D1 /* Ring10.material in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C0E1358D9C1008F06D1 /* Ring10.material */; };
+		47DD5C271358D9C1008F06D1 /* Ring10.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47DD5C0F1358D9C1008F06D1 /* Ring10.mesh */; };
+		47DD5DD71358DAB7008F06D1 /* Disk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */; };
+		47EDC6BA135886F0002D99A4 /* Ogre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EDC6B9135886F0002D99A4 /* Ogre.framework */; };
+		47EDC6BE13588705002D99A4 /* RenderSystem_GL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EDC6BD13588705002D99A4 /* RenderSystem_GL.dylib */; };
+		47EDC8671358889F002D99A4 /* RenderSystem_GL.dylib in Plugins */ = {isa = PBXBuildFile; fileRef = 47EDC6BD13588705002D99A4 /* RenderSystem_GL.dylib */; };
+		47EDC86B135888F9002D99A4 /* Ogre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EDC6B9135886F0002D99A4 /* Ogre.framework */; };
+		47EDC89013588C34002D99A4 /* plugins.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC87213588B2A002D99A4 /* plugins.cfg */; };
+		47EDC8A81358CE34002D99A4 /* knot.material in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8A51358CE34002D99A4 /* knot.material */; };
+		47EDC8A91358CE34002D99A4 /* knot.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8A61358CE34002D99A4 /* knot.mesh */; };
+		47EDC8AA1358CE34002D99A4 /* MtlPlat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8A71358CE34002D99A4 /* MtlPlat2.jpg */; };
+		47EDC8D71358D957002D99A4 /* Pole.material in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8D61358D957002D99A4 /* Pole.material */; };
+		47EDC8DF1358D96F002D99A4 /* Pole.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8D81358D96F002D99A4 /* Pole.mesh */; };
+		47EDC8E01358D96F002D99A4 /* Ring01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8D91358D96F002D99A4 /* Ring01.jpg */; };
+		47EDC8E11358D96F002D99A4 /* Ring01.material in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8DA1358D96F002D99A4 /* Ring01.material */; };
+		47EDC8E21358D96F002D99A4 /* Ring01.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8DB1358D96F002D99A4 /* Ring01.mesh */; };
+		47EDC8E31358D96F002D99A4 /* Ring02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8DC1358D96F002D99A4 /* Ring02.jpg */; };
+		47EDC8E41358D96F002D99A4 /* Ring02.material in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8DD1358D96F002D99A4 /* Ring02.material */; };
+		47EDC8E51358D96F002D99A4 /* Ring02.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8DE1358D96F002D99A4 /* Ring02.mesh */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47EDC86613588886002D99A4 /* Plugins */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				47EDC8671358889F002D99A4 /* RenderSystem_GL.dylib in Plugins */,
+			);
+			name = Plugins;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47EDC86C13588917002D99A4 /* Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				47EDC86B135888F9002D99A4 /* Ogre.framework in Frameworks */,
+			);
+			name = Frameworks;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerOfHanoiAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TowerOfHanoiAppDelegate.mm; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* TowerOfHanoi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerOfHanoi_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		473A7563135982C900436388 /* TNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNode.h; sourceTree = "<group>"; };
+		473A7566135982F800436388 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		47DD5BF81358D9C1008F06D1 /* Ring03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring03.jpg; path = Resources/Ring03.jpg; sourceTree = "<group>"; };
+		47DD5BF91358D9C1008F06D1 /* Ring03.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring03.material; path = Resources/Ring03.material; sourceTree = "<group>"; };
+		47DD5BFA1358D9C1008F06D1 /* Ring03.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring03.mesh; path = Resources/Ring03.mesh; sourceTree = "<group>"; };
+		47DD5BFB1358D9C1008F06D1 /* Ring04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring04.jpg; path = Resources/Ring04.jpg; sourceTree = "<group>"; };
+		47DD5BFC1358D9C1008F06D1 /* Ring04.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring04.material; path = Resources/Ring04.material; sourceTree = "<group>"; };
+		47DD5BFD1358D9C1008F06D1 /* Ring04.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring04.mesh; path = Resources/Ring04.mesh; sourceTree = "<group>"; };
+		47DD5BFE1358D9C1008F06D1 /* Ring05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring05.jpg; path = Resources/Ring05.jpg; sourceTree = "<group>"; };
+		47DD5BFF1358D9C1008F06D1 /* Ring05.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring05.material; path = Resources/Ring05.material; sourceTree = "<group>"; };
+		47DD5C001358D9C1008F06D1 /* Ring05.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring05.mesh; path = Resources/Ring05.mesh; sourceTree = "<group>"; };
+		47DD5C011358D9C1008F06D1 /* Ring06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring06.jpg; path = Resources/Ring06.jpg; sourceTree = "<group>"; };
+		47DD5C021358D9C1008F06D1 /* Ring06.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring06.material; path = Resources/Ring06.material; sourceTree = "<group>"; };
+		47DD5C031358D9C1008F06D1 /* Ring06.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring06.mesh; path = Resources/Ring06.mesh; sourceTree = "<group>"; };
+		47DD5C041358D9C1008F06D1 /* Ring07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring07.jpg; path = Resources/Ring07.jpg; sourceTree = "<group>"; };
+		47DD5C051358D9C1008F06D1 /* Ring07.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring07.material; path = Resources/Ring07.material; sourceTree = "<group>"; };
+		47DD5C061358D9C1008F06D1 /* Ring07.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring07.mesh; path = Resources/Ring07.mesh; sourceTree = "<group>"; };
+		47DD5C071358D9C1008F06D1 /* Ring08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring08.jpg; path = Resources/Ring08.jpg; sourceTree = "<group>"; };
+		47DD5C081358D9C1008F06D1 /* Ring08.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring08.material; path = Resources/Ring08.material; sourceTree = "<group>"; };
+		47DD5C091358D9C1008F06D1 /* Ring08.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring08.mesh; path = Resources/Ring08.mesh; sourceTree = "<group>"; };
+		47DD5C0A1358D9C1008F06D1 /* Ring09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring09.jpg; path = Resources/Ring09.jpg; sourceTree = "<group>"; };
+		47DD5C0B1358D9C1008F06D1 /* Ring09.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring09.material; path = Resources/Ring09.material; sourceTree = "<group>"; };
+		47DD5C0C1358D9C1008F06D1 /* Ring09.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring09.mesh; path = Resources/Ring09.mesh; sourceTree = "<group>"; };
+		47DD5C0D1358D9C1008F06D1 /* Ring10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring10.jpg; path = Resources/Ring10.jpg; sourceTree = "<group>"; };
+		47DD5C0E1358D9C1008F06D1 /* Ring10.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring10.material; path = Resources/Ring10.material; sourceTree = "<group>"; };
+		47DD5C0F1358D9C1008F06D1 /* Ring10.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring10.mesh; path = Resources/Ring10.mesh; sourceTree = "<group>"; };
+		47DD5DD51358DAB7008F06D1 /* Disk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Disk.cpp; sourceTree = "<group>"; };
+		47DD5DD61358DAB7008F06D1 /* Disk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Disk.h; sourceTree = "<group>"; };
+		47EDC6B9135886F0002D99A4 /* Ogre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogre.framework; path = Ogre3d/OSX/ogre/lib/Release/Ogre.framework; sourceTree = DEVELOPER_DIR; };
+		47EDC6BD13588705002D99A4 /* RenderSystem_GL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = RenderSystem_GL.dylib; path = Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib; sourceTree = DEVELOPER_DIR; };
+		47EDC87213588B2A002D99A4 /* plugins.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plugins.cfg; sourceTree = "<group>"; };
+		47EDC8A51358CE34002D99A4 /* knot.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = knot.material; path = Resources/knot.material; sourceTree = "<group>"; };
+		47EDC8A61358CE34002D99A4 /* knot.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = knot.mesh; path = Resources/knot.mesh; sourceTree = "<group>"; };
+		47EDC8A71358CE34002D99A4 /* MtlPlat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MtlPlat2.jpg; path = Resources/MtlPlat2.jpg; sourceTree = "<group>"; };
+		47EDC8D61358D957002D99A4 /* Pole.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Pole.material; path = Resources/Pole.material; sourceTree = "<group>"; };
+		47EDC8D81358D96F002D99A4 /* Pole.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pole.mesh; path = Resources/Pole.mesh; sourceTree = "<group>"; };
+		47EDC8D91358D96F002D99A4 /* Ring01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring01.jpg; path = Resources/Ring01.jpg; sourceTree = "<group>"; };
+		47EDC8DA1358D96F002D99A4 /* Ring01.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring01.material; path = Resources/Ring01.material; sourceTree = "<group>"; };
+		47EDC8DB1358D96F002D99A4 /* Ring01.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring01.mesh; path = Resources/Ring01.mesh; sourceTree = "<group>"; };
+		47EDC8DC1358D96F002D99A4 /* Ring02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring02.jpg; path = Resources/Ring02.jpg; sourceTree = "<group>"; };
+		47EDC8DD1358D96F002D99A4 /* Ring02.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Ring02.material; path = Resources/Ring02.material; sourceTree = "<group>"; };
+		47EDC8DE1358D96F002D99A4 /* Ring02.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ring02.mesh; path = Resources/Ring02.mesh; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TowerOfHanoi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TowerOfHanoi-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TowerOfHanoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerOfHanoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				47EDC6BA135886F0002D99A4 /* Ogre.framework in Frameworks */,
+				47EDC6BE13588705002D99A4 /* RenderSystem_GL.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				473A7566135982F800436388 /* Stack.h */,
+				473A7563135982C900436388 /* TNode.h */,
+				47DD5DD51358DAB7008F06D1 /* Disk.cpp */,
+				47DD5DD61358DAB7008F06D1 /* Disk.h */,
+				256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TowerOfHanoi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TowerOfHanoi */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TowerOfHanoi;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* TowerOfHanoi_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47DD5BF81358D9C1008F06D1 /* Ring03.jpg */,
+				47DD5BF91358D9C1008F06D1 /* Ring03.material */,
+				47DD5BFA1358D9C1008F06D1 /* Ring03.mesh */,
+				47DD5BFB1358D9C1008F06D1 /* Ring04.jpg */,
+				47DD5BFC1358D9C1008F06D1 /* Ring04.material */,
+				47DD5BFD1358D9C1008F06D1 /* Ring04.mesh */,
+				47DD5BFE1358D9C1008F06D1 /* Ring05.jpg */,
+				47DD5BFF1358D9C1008F06D1 /* Ring05.material */,
+				47DD5C001358D9C1008F06D1 /* Ring05.mesh */,
+				47DD5C011358D9C1008F06D1 /* Ring06.jpg */,
+				47DD5C021358D9C1008F06D1 /* Ring06.material */,
+				47DD5C031358D9C1008F06D1 /* Ring06.mesh */,
+				47DD5C041358D9C1008F06D1 /* Ring07.jpg */,
+				47DD5C051358D9C1008F06D1 /* Ring07.material */,
+				47DD5C061358D9C1008F06D1 /* Ring07.mesh */,
+				47DD5C071358D9C1008F06D1 /* Ring08.jpg */,
+				47DD5C081358D9C1008F06D1 /* Ring08.material */,
+				47DD5C091358D9C1008F06D1 /* Ring08.mesh */,
+				47DD5C0A1358D9C1008F06D1 /* Ring09.jpg */,
+				47DD5C0B1358D9C1008F06D1 /* Ring09.material */,
+				47DD5C0C1358D9C1008F06D1 /* Ring09.mesh */,
+				47DD5C0D1358D9C1008F06D1 /* Ring10.jpg */,
+				47DD5C0E1358D9C1008F06D1 /* Ring10.material */,
+				47DD5C0F1358D9C1008F06D1 /* Ring10.mesh */,
+				47EDC8D81358D96F002D99A4 /* Pole.mesh */,
+				47EDC8D91358D96F002D99A4 /* Ring01.jpg */,
+				47EDC8DB1358D96F002D99A4 /* Ring01.mesh */,
+				47EDC8DC1358D96F002D99A4 /* Ring02.jpg */,
+				47EDC8DD1358D96F002D99A4 /* Ring02.material */,
+				47EDC8DE1358D96F002D99A4 /* Ring02.mesh */,
+				47EDC8DA1358D96F002D99A4 /* Ring01.material */,
+				47EDC8D61358D957002D99A4 /* Pole.material */,
+				47EDC8A51358CE34002D99A4 /* knot.material */,
+				47EDC8A61358CE34002D99A4 /* knot.mesh */,
+				47EDC8A71358CE34002D99A4 /* MtlPlat2.jpg */,
+				8D1107310486CEB800E47090 /* TowerOfHanoi-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				47EDC87213588B2A002D99A4 /* plugins.cfg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47EDC6B9135886F0002D99A4 /* Ogre.framework */,
+				47EDC6BD13588705002D99A4 /* RenderSystem_GL.dylib */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TowerOfHanoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TowerOfHanoi" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				47EDC86613588886002D99A4 /* Plugins */,
+				47EDC86C13588917002D99A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerOfHanoi;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TowerOfHanoi;
+			productReference = 8D1107320486CEB800E47090 /* TowerOfHanoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TowerOfHanoi" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TowerOfHanoi */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TowerOfHanoi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EDC89013588C34002D99A4 /* plugins.cfg in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				47EDC8A81358CE34002D99A4 /* knot.material in Resources */,
+				47EDC8A91358CE34002D99A4 /* knot.mesh in Resources */,
+				47EDC8AA1358CE34002D99A4 /* MtlPlat2.jpg in Resources */,
+				47EDC8D71358D957002D99A4 /* Pole.material in Resources */,
+				47EDC8DF1358D96F002D99A4 /* Pole.mesh in Resources */,
+				47EDC8E01358D96F002D99A4 /* Ring01.jpg in Resources */,
+				47EDC8E11358D96F002D99A4 /* Ring01.material in Resources */,
+				47EDC8E21358D96F002D99A4 /* Ring01.mesh in Resources */,
+				47EDC8E31358D96F002D99A4 /* Ring02.jpg in Resources */,
+				47EDC8E41358D96F002D99A4 /* Ring02.material in Resources */,
+				47EDC8E51358D96F002D99A4 /* Ring02.mesh in Resources */,
+				47DD5C101358D9C1008F06D1 /* Ring03.jpg in Resources */,
+				47DD5C111358D9C1008F06D1 /* Ring03.material in Resources */,
+				47DD5C121358D9C1008F06D1 /* Ring03.mesh in Resources */,
+				47DD5C131358D9C1008F06D1 /* Ring04.jpg in Resources */,
+				47DD5C141358D9C1008F06D1 /* Ring04.material in Resources */,
+				47DD5C151358D9C1008F06D1 /* Ring04.mesh in Resources */,
+				47DD5C161358D9C1008F06D1 /* Ring05.jpg in Resources */,
+				47DD5C171358D9C1008F06D1 /* Ring05.material in Resources */,
+				47DD5C181358D9C1008F06D1 /* Ring05.mesh in Resources */,
+				47DD5C191358D9C1008F06D1 /* Ring06.jpg in Resources */,
+				47DD5C1A1358D9C1008F06D1 /* Ring06.material in Resources */,
+				47DD5C1B1358D9C1008F06D1 /* Ring06.mesh in Resources */,
+				47DD5C1C1358D9C1008F06D1 /* Ring07.jpg in Resources */,
+				47DD5C1D1358D9C1008F06D1 /* Ring07.material in Resources */,
+				47DD5C1E1358D9C1008F06D1 /* Ring07.mesh in Resources */,
+				47DD5C1F1358D9C1008F06D1 /* Ring08.jpg in Resources */,
+				47DD5C201358D9C1008F06D1 /* Ring08.material in Resources */,
+				47DD5C211358D9C1008F06D1 /* Ring08.mesh in Resources */,
+				47DD5C221358D9C1008F06D1 /* Ring09.jpg in Resources */,
+				47DD5C231358D9C1008F06D1 /* Ring09.material in Resources */,
+				47DD5C241358D9C1008F06D1 /* Ring09.mesh in Resources */,
+				47DD5C251358D9C1008F06D1 /* Ring10.jpg in Resources */,
+				47DD5C261358D9C1008F06D1 /* Ring10.material in Resources */,
+				47DD5C271358D9C1008F06D1 /* Ring10.mesh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm in Sources */,
+				47DD5DD71358DAB7008F06D1 /* Disk.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Developer-old/Ogre3d/OSX/ogre/lib/Release",
+					"$(inherited)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TowerOfHanoi_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"/Developer-old/Ogre3d/OSX/ogre/boost_1_42",
+					/opt/local/include,
+				);
+				INFOPLIST_FILE = "TowerOfHanoi-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Developer-old/Ogre3d/OSX/ogre/lib/Release",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = TowerOfHanoi;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Ogre3d/OSX/ogre/lib/Release\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TowerOfHanoi_Prefix.pch;
+				INFOPLIST_FILE = "TowerOfHanoi-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Ogre3d/OSX/ogre/lib/Release\"",
+				);
+				PRODUCT_NAME = TowerOfHanoi;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TowerOfHanoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TowerOfHanoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

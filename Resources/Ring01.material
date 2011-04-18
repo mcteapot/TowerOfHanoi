@@ -1,0 +1,18 @@
+// Materials for Ring01
+
+material Ring01
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.80 0.80 0.80 1.00
+			
+			texture_unit
+			{
+				texture Ring01.jpg
+			}
+		}
+	}
+}
+

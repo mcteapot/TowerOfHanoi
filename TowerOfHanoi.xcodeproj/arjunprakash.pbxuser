@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {494, 484}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {509, 572}}";
+			sepNavSelRange = "{895, 0}";
+			sepNavVisRange = "{0, 817}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{8751, 1794}\";\n            s = 0;\n        },\n                {\n            r = \"{10553, 2432}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 13080}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 3900}}";
+			sepNavSelRange = "{8766, 0}";
+			sepNavVisRange = "{8190, 666}";
+			sepNavWindowFrame = "{{15, 23}, {546, 850}}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* TowerOfHanoi_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 503}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 155}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 47B4DDAA13583DCB0094D032 /* TowerOfHanoi */;
+		activeTarget = 8D1107260486CEB800E47090 /* TowerOfHanoi */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* TowerOfHanoi */,
+		);
+		breakpoints = (
+			47DD5F691358EEB0008F06D1 /* TowerOfHanoiAppDelegate.mm:194 */,
+		);
+		codeSenseManager = 47B4DDB513583DE90094D032 /* Code sense */;
+		executables = (
+			47B4DDAA13583DCB0094D032 /* TowerOfHanoi */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					262,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					222,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 324632146;
+			PBXWorkspaceStateSaveDate = 324632146;
+		};
+		perUserProjectItems = {
+			473A759113598C3200436388 /* PBXTextBookmark */ = 473A759113598C3200436388 /* PBXTextBookmark */;
+			473A75BA1359954F00436388 /* PBXTextBookmark */ = 473A75BA1359954F00436388 /* PBXTextBookmark */;
+			473A75BB1359954F00436388 /* PBXTextBookmark */ = 473A75BB1359954F00436388 /* PBXTextBookmark */;
+			473A75C81359973100436388 /* PBXTextBookmark */ = 473A75C81359973100436388 /* PBXTextBookmark */;
+			473A75D0135C054800436388 /* PBXTextBookmark */ = 473A75D0135C054800436388 /* PBXTextBookmark */;
+			473A75D1135C054800436388 /* PBXTextBookmark */ = 473A75D1135C054800436388 /* PBXTextBookmark */;
+			47DD5BF21358D9B5008F06D1 /* PBXTextBookmark */ = 47DD5BF21358D9B5008F06D1 /* PBXTextBookmark */;
+			47DD5E0C1358DD6E008F06D1 /* PBXTextBookmark */ = 47DD5E0C1358DD6E008F06D1 /* PBXTextBookmark */;
+			47DD5E0F1358DD6E008F06D1 /* PBXTextBookmark */ = 47DD5E0F1358DD6E008F06D1 /* PBXTextBookmark */;
+			47DD5FD51358F1CF008F06D1 /* PBXTextBookmark */ = 47DD5FD51358F1CF008F06D1 /* PBXTextBookmark */;
+			47DD5FD71358F1CF008F06D1 /* PBXTextBookmark */ = 47DD5FD71358F1CF008F06D1 /* PBXTextBookmark */;
+			47EDC8AD1358CEB9002D99A4 /* PBXTextBookmark */ = 47EDC8AD1358CEB9002D99A4 /* PBXTextBookmark */;
+			47EDC8E81358D98F002D99A4 /* PlistBookmark */ = 47EDC8E81358D98F002D99A4 /* PlistBookmark */;
+			47EDC8E91358D98F002D99A4 /* PBXBookmark */ = 47EDC8E91358D98F002D99A4 /* PBXBookmark */;
+			47EDC8EA1358D98F002D99A4 /* PBXTextBookmark */ = 47EDC8EA1358D98F002D99A4 /* PBXTextBookmark */;
+			47EDC8EC1358D98F002D99A4 /* PBXBookmark */ = 47EDC8EC1358D98F002D99A4 /* PBXBookmark */;
+		};
+		sourceControlManager = 47B4DDB413583DE90094D032 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 741}}";
+			sepNavSelRange = "{130, 0}";
+			sepNavVisRange = "{0, 252}";
+		};
+	};
+	473A7566135982F800436388 /* Stack.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {440, 2353}}";
+			sepNavSelRange = "{118, 18}";
+			sepNavVisRange = "{0, 772}";
+		};
+	};
+	473A759113598C3200436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 473A7566135982F800436388 /* Stack.h */;
+		name = "Stack.h: 9";
+		rLen = 18;
+		rLoc = 118;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 0;
+	};
+	473A75BA1359954F00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD61358DAB7008F06D1 /* Disk.h */;
+		name = "Disk.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 0;
+	};
+	473A75BB1359954F00436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5DD51358DAB7008F06D1 /* Disk.cpp */;
+		name = "Disk.cpp: 67";
+		rLen = 0;
+		rLoc = 1220;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 271;
+	};
+	473A75C81359973100436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 402";
+		rLen = 0;
+		rLoc = 12990;
+		rType = 0;
+		vrLen = 5168;
+		vrLoc = 7912;
+	};
+	473A75D0135C054800436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.h */;
+		name = "TowerOfHanoiAppDelegate.h: 41";
+		rLen = 0;
+		rLoc = 895;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 0;
+	};
+	473A75D1135C054800436388 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		name = "TowerOfHanoiAppDelegate.mm: 402";
+		rLen = 0;
+		rLoc = 12990;
+		rType = 0;
+		vrLen = 4890;
+		vrLoc = 8190;
+	};
+	47B4DDAA13583DCB0094D032 /* TowerOfHanoi */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TowerOfHanoi;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	47B4DDB413583DE90094D032 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	47B4DDB513583DE90094D032 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	47DD5BF21358D9B5008F06D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47EDC8D61358D957002D99A4 /* Pole.material */;
+		name = "Pole.material: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 0;
+	};
+	47DD5DD51358DAB7008F06D1 /* Disk.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 897}}";
+			sepNavSelRange = "{1220, 0}";
+			sepNavVisRange = "{271, 971}";
+		};
+	};
+	47DD5DD61358DAB7008F06D1 /* Disk.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 716}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 409}";
+		};
+	};
+	47DD5E0C1358DD6E008F06D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47EDC8DA1358D96F002D99A4 /* Ring01.material */;
+		name = "Ring01.material: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 162;
+		vrLoc = 0;
+	};
+	47DD5E0F1358DD6E008F06D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* TowerOfHanoi_Prefix.pch */;
+		name = "TowerOfHanoi_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 155;
+		vrLoc = 0;
+	};
+	47DD5F691358EEB0008F06D1 /* TowerOfHanoiAppDelegate.mm:194 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* TowerOfHanoiAppDelegate.mm */;
+		functionName = "-setRings";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 194;
+		location = TowerOfHanoi;
+		modificationTime = 324595380.668451;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	47DD5FD51358F1CF008F06D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47DD5FD61358F1CF008F06D1 /* OgreIteratorRange.h */;
+		name = "OgreIteratorRange.h: 34";
+		rLen = 0;
+		rLoc = 1497;
+		rType = 0;
+		vrLen = 2167;
+		vrLoc = 0;
+	};
+	47DD5FD61358F1CF008F06D1 /* OgreIteratorRange.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = OgreIteratorRange.h;
+		path = "/Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework/Headers/OgreIteratorRange.h";
+		sourceTree = "<absolute>";
+	};
+	47DD5FD71358F1CF008F06D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 9";
+		rLen = 0;
+		rLoc = 130;
+		rType = 0;
+		vrLen = 252;
+		vrLoc = 0;
+	};
+	47EDC87213588B2A002D99A4 /* plugins.cfg */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {363, 510}}";
+			sepNavSelRange = "{22, 0}";
+			sepNavVisRange = "{0, 22}";
+		};
+	};
+	47EDC8AD1358CEB9002D99A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 47EDC87213588B2A002D99A4 /* plugins.cfg */;
+		name = "plugins.cfg: 1";
+		rLen = 0;
+		rLoc = 22;
+		rType = 0;
+		vrLen = 22;
+		vrLoc = 0;
+	};
+	47EDC8D61358D957002D99A4 /* Pole.material */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 503}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 297}";
+		};
+	};
+	47EDC8DA1358D96F002D99A4 /* Ring01.material */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 503}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 162}";
+		};
+	};
+	47EDC8E81358D98F002D99A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TowerOfHanoi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoi-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	47EDC8E91358D98F002D99A4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 47EDC8A71358CE34002D99A4 /* MtlPlat2.jpg */;
+	};
+	47EDC8EA1358D98F002D99A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	47EDC8EC1358D98F002D99A4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 47EDC8DC1358D96F002D99A4 /* Ring02.jpg */;
+	};
+	8D1107260486CEB800E47090 /* TowerOfHanoi */ = {
+		activeExec = 0;
+		executables = (
+			47B4DDAA13583DCB0094D032 /* TowerOfHanoi */,
+		);
+	};
+}
