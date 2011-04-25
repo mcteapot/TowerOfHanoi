@@ -12,7 +12,8 @@
 #import <math.h>
 #import "Disk.h"
 #import "Stack.h"
-//#import "Queue.h"
+#import "Queue.h"
+
 
 @interface TowerOfHanoiAppDelegate : NSObject <NSApplicationDelegate> {
 	//Links view to Ogre
@@ -22,7 +23,6 @@
 	IBOutlet NSButton *startButton;
 	//IBOutlet UILabel *display;
 	//Ogre Inits
-	//Ogre::SceneNode *mObjectNode;
     Ogre::Light *mMainLight01;
     Ogre::Light *mMainLight02;
 	Ogre::Timer ogTimer;

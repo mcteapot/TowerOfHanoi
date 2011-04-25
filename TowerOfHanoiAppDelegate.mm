@@ -58,14 +58,6 @@ using namespace Ogre;
     mMainLight02 = mSceneMgr->createLight("MainLight02");
 	mMainLight02->setPosition(0,0,-1000);
 	
-    
-	// Add a object, give it it's own node
-    //mObjectNode = mSceneMgr->getRootSceneNode()->createChildSceneNode();
-    //Entity *knot = mSceneMgr->createEntity("knot", "knot.mesh");
-    //Entity *knot = mSceneMgr->createEntity("knot", "knot.mesh");
-    //mObjectNode->attachObject(knot);
-    //mObjectNode->setPosition(Vector3(0, 0, -500));
-	
 	
 	//create a sceneSceneNode Poles
 	SceneNode *nodePollA = mSceneMgr->createSceneNode("NodeA");
@@ -208,8 +200,9 @@ using namespace Ogre;
 			[self createDisks: ringSize];
 			[self solveStruct: ringSize];
 		} else if (dataStructure == 1) {
-			NSLog(@"Queue");
-			compute = false;
+			[self createDisks: ringSize];
+			[self solveQueue: ringSize];
+			//compute = false;
 		}
 		
 	}else {
@@ -472,7 +465,199 @@ using namespace Ogre;
 }
 
 - (void) solveQueue:(int) diskNum {
-	//TODO
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	//compute = true;
+	int even;
+	int moveOne = 1;
+    int tempMove,tempSize;
+    int moveSmall, moveSmallPoll;
+    int topA, topB, topC;
+	Queue<int> nQueueA(diskNum);
+	Queue<int> nQueueB(diskNum);
+	Queue<int> nQueueC(diskNum);
+	//Stack<int> nStackA(diskNum);
+	//Stack<int> nStackB(diskNum);
+	//Stack<int> nStackC(diskNum);
+	int diskMoves = int(std::pow((float)2, (float)diskNum));
+	for (int i = diskNum; i > 0; i--) {
+		nQueueA.push(i);
+	}
+	if (ringSize%2 == 0) {
+		even = 1;
+	} else {
+		even = 0;
+	}
+	int i=1;
+	ogTimer.reset();
+	while (i < diskMoves) {
+		Ogre::Root::getSingleton().renderOneFrame();
+		if(ogTimer.getMilliseconds() > 400) {
+			//moves		
+			if ((i == 1) || (i%2 != 0)) { //disk 1 moves
+				cout << "moveDisk: 1" << endl;
+				if (!even) {	
+					//odd disks
+					if (moveOne == 1) {
+						tempMove = nQueueA.top();
+						nQueueA.pop();
+						nQueueC.push(tempMove);
+						tempSize = nQueueC.size();
+						theDisks[tempMove]->moveDisk(tempSize, 3);
+						moveOne = theDisks[tempMove]->getPole();
+						theDisks[tempMove]->displayArray();
+					} else if (moveOne == 3) {
+						tempMove = nQueueC.top();
+						nQueueC.pop();
+						nQueueB.push(tempMove);
+						tempSize = nQueueB.size();
+						theDisks[tempMove]->moveDisk(tempSize, 2);
+						moveOne = theDisks[tempMove]->getPole();
+						theDisks[tempMove]->displayArray();
+					} else if (moveOne == 2) {
+						tempMove = nQueueB.top();
+						nQueueB.pop();
+						nQueueA.push(tempMove);
+						tempSize = nQueueA.size();
+						theDisks[tempMove]->moveDisk(tempSize, 1);
+						moveOne = theDisks[tempMove]->getPole();
+						theDisks[tempMove]->displayArray();
+					}
+				} else {
+					//even disks
+					if (moveOne == 1) {
+						tempMove = nQueueA.top();
+						nQueueA.pop();
+						nQueueB.push(tempMove);
+						tempSize = nQueueB.size();
+						theDisks[tempMove]->moveDisk(tempSize, 2);
+						moveOne = theDisks[tempMove]->getPole();
+						theDisks[tempMove]->displayArray();
+					} else if (moveOne == 2) {
+						tempMove = nQueueB.top();
+						nQueueB.pop();
+						nQueueC.push(tempMove);
+						tempSize = nQueueC.size();
+						theDisks[tempMove]->moveDisk(tempSize, 3);
+						moveOne = theDisks[tempMove]->getPole();
+						theDisks[tempMove]->displayArray();
+					} else if (moveOne == 3) {
+						tempMove = nQueueC.top();
+						nQueueC.pop();
+						nQueueA.push(tempMove);
+						tempSize = nQueueA.size();
+						theDisks[tempMove]->moveDisk(tempSize, 1);
+						moveOne = theDisks[tempMove]->getPole();
+						theDisks[tempMove]->displayArray();
+					}
+					
+				}
+				
+			} else { //all other moves
+				//setSmall to largest disk
+				moveSmall = ringSize;
+				
+				//load disk sizes into variables
+				if (!nQueueA.empty()) {
+					topA = nQueueA.top();
+				} else {
+					topA = 0;
+				}
+				if (!nQueueB.empty()) {
+					topB = nQueueB.top();
+				} else {
+					topB = 0;
+				}
+				if (!nQueueC.empty()) {
+					topC = nQueueC.top();
+				} else {
+					topC = 0;
+				}
+				
+				//find largest smallest 
+				if ((moveSmall >= topA) && ((topA != 0) && (topA != 1))) {
+					moveSmall = nQueueA.top();
+					moveSmallPoll = theDisks[moveSmall]->getPole();
+				}
+				if ((moveSmall >= topB) && ((topB != 0) && (topB != 1))) {
+					moveSmall = nQueueB.top();
+					moveSmallPoll = theDisks[moveSmall]->getPole();
+				}
+				if ((moveSmall >= topC) && ((topC != 0) && (topC != 1))) {
+					moveSmall = nQueueC.top();
+					moveSmallPoll = theDisks[moveSmall]->getPole();
+				}
+				
+				cout << "moveDisk: "<< moveSmall << endl;
+				//move small disk
+				//on Poll A
+				if (moveSmallPoll == 1) { 
+					if (moveOne == 2) {
+						tempMove = nQueueA.top();
+						nQueueA.pop();
+						nQueueC.push(tempMove);
+						tempSize = nQueueC.size();
+						theDisks[tempMove]->moveDisk(tempSize, 3);
+						theDisks[tempMove]->displayArray();
+					} else {
+						tempMove = nQueueA.top();
+						nQueueA.pop();
+						nQueueB.push(tempMove);
+						tempSize = nQueueB.size();
+						theDisks[tempMove]->moveDisk(tempSize, 2);
+						theDisks[tempMove]->displayArray();
+					}
+					
+				}
+				//on Poll B
+				else if (moveSmallPoll == 2) {
+					if (moveOne == 1) {
+						tempMove = nQueueB.top();
+						nQueueB.pop();
+						nQueueC.push(tempMove);
+						tempSize = nQueueC.size();
+						theDisks[tempMove]->moveDisk(tempSize, 3);
+						theDisks[tempMove]->displayArray();
+					} else {
+						tempMove = nQueueB.top();
+						nQueueB.pop();
+						nQueueA.push(tempMove);
+						tempSize = nQueueA.size();
+						theDisks[tempMove]->moveDisk(tempSize, 1);
+						theDisks[tempMove]->displayArray();
+					}
+					
+				}
+				//on Poll C
+				else if (moveSmallPoll == 3) {
+					if (moveOne == 1) {
+						tempMove = nQueueC.top();
+						nQueueC.pop();
+						nQueueB.push(tempMove);
+						tempSize = nQueueB.size();
+						theDisks[tempMove]->moveDisk(tempSize, 2);
+						theDisks[tempMove]->displayArray();
+					} else {
+						tempMove = nQueueC.top();
+						nQueueC.pop();
+						nQueueA.push(tempMove);
+						tempSize = nQueueA.size();
+						theDisks[tempMove]->moveDisk(tempSize, 1);
+						theDisks[tempMove]->displayArray();
+					}
+					
+				}
+				
+			}
+			[self setRings];
+			i++;
+			ogTimer.reset();
+		}
+	}//Loop end
+	compute = false;
+	[self createDisks: ringSize];
+	//[startButton setTitle:@"Start"];
+	NSLog(@"this is the end of the solveStack");
+	[pool drain];
 }
 
 

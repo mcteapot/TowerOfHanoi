@@ -1,3 +1,6 @@
+#ifndef DISK_H
+#define DISK_H
+
 #include <iostream>
 #include <cstdlib>
 #include <iomanip>
@@ -24,3 +27,5 @@ class Disk
 	static int diskCount;
 	static int thePlaces[10][3];
 };
+
+#endif //DISK_H

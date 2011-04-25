@@ -1,7 +1,7 @@
 TTowerOfHanoi
 v7
 r0
-t324819051.644220
+t325383503.387508
 cCheck dependencies
 cProcessInfoPlistFile /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Info.plist TowerOfHanoi-Info.plist
 cCpResource build/Debug/TowerOfHanoi.app/Contents/Resources/plugins.cfg plugins.cfg
@@ -7790,9 +7790,9 @@ s1396
 i"Disk.h"
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.h
-c000000004DAC17BB00000000000001C2
-t1303123899
-s450
+c000000004DB4BD2A00000000000001F5
+t1303690538
+s501
 i<iostream>
 i<cstdlib>
 i<iomanip>
@@ -7806,6 +7806,25 @@ N/Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/MainMenu.xib
 c000000004DAC1AF9000000000003105B
 t1303124729
 s200795
+
+N/Users/arjunprakash/Working/Development/TowerOfHanoi/Node.h
+c000000004DB4BCD10000000000000625
+t1303690449
+s1573
+i<iostream>
+i<cstdlib>
+i<string>
+i<ctime>
+
+N/Users/arjunprakash/Working/Development/TowerOfHanoi/Queue.h
+c000000004DB4BD540000000000002373
+t1303690580
+s9075
+i<iostream>
+i<cstdlib>
+i<assert.h>
+i<cmath>
+i"Node.h"
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/Resources/MtlPlat2.jpg
 c000000004DA6E0D30000000000002039
@@ -8000,20 +8019,21 @@ i<cstdlib>
 i<iostream>
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.h
-c000000004DAC1A65000000000000046B
-t1303124581
-s1131
+c000000004DB4BD67000000000000046A
+t1303690599
+s1130
 i<Cocoa/Cocoa.h>
 i<Ogre/Ogre.h>
 i<Ogre/OSX/OgreOSXCocoaView.h>
 i<math.h>
 i"Disk.h"
 i"Stack.h"
+i"Queue.h"
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm
-c000000004DAC20E1000000000000399C
-t1303126241
-s14748
+c000000004DB4BDC60000000000004EA5
+t1303690694
+s20133
 i"TowerOfHanoiAppDelegate.h"
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoi_Prefix.pch
@@ -8023,7 +8043,7 @@ s155
 i<Cocoa/Cocoa.h>
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app
-t1303126251
+t1303690703
 s102
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Frameworks/Ogre.framework
@@ -8035,8 +8055,8 @@ t1303122127
 s901
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi
-t1303126251
-s109616
+t1303690703
+s117648
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/PkgInfo
 t1303122127
@@ -8199,7 +8219,7 @@ t1303122127
 s22
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o
-t1303124077
+t1303690604
 s75096
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoi.LinkFileList
@@ -8208,12 +8228,20 @@ t1303122127
 s415
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o
-t1303126251
-s5886616
+t1303690703
+s5905724
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/main.o
 t1303122128
 s5024
+
+N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/node.o
+t2
+s0
+
+N/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/queue.o
+t2
+s0
 
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/main.m
 c000000004DA8A30800000000000000FC
@@ -8221,10 +8249,16 @@ t1302897416
 s252
 i<Cocoa/Cocoa.h>
 
+N/Users/arjunprakash/Working/Development/TowerOfHanoi/node.cpp
+c000000004DA2DD150000000000000492
+t1302519061
+s1170
+i"node.h"
+
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/node.h
-c000000004DA6AFDD0000000000000769
-t1302769629
-s1897
+c000000004DB4BCD10000000000000625
+t1303690449
+s1573
 i<iostream>
 i<cstdlib>
 i<string>
@@ -8235,10 +8269,16 @@ c000000004DA853B10000000000000016
 t1302877105
 s22
 
+N/Users/arjunprakash/Working/Development/TowerOfHanoi/queue.cpp
+c000000004DA3BB4100000000000017A0
+t1302575937
+s6048
+i"queue.h"
+
 N/Users/arjunprakash/Working/Development/TowerOfHanoi/queue.h
-c000000004DAC16300000000000002481
-t1303123504
-s9345
+c000000004DB4BCEF0000000000002373
+t1303690479
+s9075
 i<iostream>
 i<cstdlib>
 i<assert.h>
@@ -8264,11 +8304,11 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies324819046#324819046#0(0"0(0#1#0"8594964416#0"0#
+lSLF07#2@18"Check dependencies325383498#325383498#0(0"0(0#1#0"8621110016#0"0#
 
 CCompileC build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s324816876.544980
-e324816877.065208
+s325383403.615143
+e325383404.227158
 r1
 xCompileC
 xbuild/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o
@@ -8277,11 +8317,11 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp324816876#324816877#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp8625313312#1833"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-ababqhrbwkbcihgzxrgvdzyqyylu/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o0#
+lSLF07#2@69"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp325383403#325383404#0(0"0(0#0#61"/Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp8610554624#1833"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-ababqhrbwkbcihgzxrgvdzyqyylu/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/Disk.cpp -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/Disk.o0#
 
 CCompileC build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
-s324819046.153029
-e324819051.371487
+s325383498.252632
+e325383503.309059
 r1
 xCompileC
 xbuild/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o
@@ -8290,7 +8330,7 @@ xnormal
 xx86_64
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm324819046#324819051#0(0"0(0#0#79"/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm8619907360#1880"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-gjfidmfsdvdserhjokzgushjtqmc/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o0#
+lSLF07#2@87"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm325383498#325383503#0(0"0(0#0#79"/Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm8617484256#1880"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-gjfidmfsdvdserhjokzgushjtqmc/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/TowerOfHanoiAppDelegate.mm -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoiAppDelegate.o0#
 
 CCompileC build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/main.o /Users/arjunprakash/Working/Development/TowerOfHanoi/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s324814928.512906
@@ -8304,6 +8344,12 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@67"Compile /Users/arjunprakash/Working/Development/TowerOfHanoi/main.m324814928#324814928#0(0"0(0#0#59"/Users/arjunprakash/Working/Development/TowerOfHanoi/main.m8619969760#1822"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv LANG en_US.US-ASCII    /Developer-old/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-generated-files.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-own-target-headers.hmap -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-all-target-headers.hmap -iquote /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/TowerOfHanoi-project-headers.hmap -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/include -I/Developer-old/Ogre3d/OSX/ogre/boost_1_42 -I/opt/local/include -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources/x86_64 -I/Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/DerivedSources -include /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TowerOfHanoi_Prefix-dpaxerwxjiszocawforgscifhnju/TowerOfHanoi_Prefix.pch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/main.m -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/node.o /Users/arjunprakash/Working/Development/TowerOfHanoi/node.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/queue.o /Users/arjunprakash/Working/Development/TowerOfHanoi/queue.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileXIB /Users/arjunprakash/Working/Development/TowerOfHanoi/English.lproj/MainMenu.xib
 s324817533.596356
@@ -8647,14 +8693,14 @@ xplugins.cfg
 lSLF07#2@16"Copy plugins.cfg324814927#324814927#0(0"0(0#0#64"/Users/arjunprakash/Working/Development/TowerOfHanoi/plugins.cfg8650282496#392"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/arjunprakash/Working/Development/TowerOfHanoi/plugins.cfg /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/Resources0#
 
 CLd /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi normal x86_64
-s324819051.371686
-e324819051.641143
+s325383503.309292
+e325383503.384436
 r1
 xLd
 x/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi
 xnormal
 xx86_64
-lSLF07#2@114"Link /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi324819051#324819051#0(0"0(0#0#0"8600171200#816"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -L/Developer-old/Ogre3d/OSX/ogre/lib/Release -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -filelist /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoi.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Ogre /Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi0#
+lSLF07#2@114"Link /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi325383503#325383503#0(0"0(0#0#0"8625856352#816"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer-old/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer-old/SDKs/MacOSX10.6.sdk -L/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -L/Developer-old/Ogre3d/OSX/ogre/lib/Release -F/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug -F/Developer-old/Ogre3d/OSX/ogre/lib/Release -filelist /Users/arjunprakash/Working/Development/TowerOfHanoi/build/TowerOfHanoi.build/Debug/TowerOfHanoi.build/Objects-normal/x86_64/TowerOfHanoi.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Ogre /Developer-old/Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib -o /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app/Contents/MacOS/TowerOfHanoi0#
 
 CPBXCp build/Debug/TowerOfHanoi.app/Contents/Frameworks/Ogre.framework /Developer-old/Ogre3d/OSX/ogre/lib/Release/Ogre.framework
 s324814934.862302
@@ -8693,10 +8739,10 @@ CProcessPCH++ /var/folders/nk/nkN7ApV2HZSDvCfxk0+u-++++TI/-Caches-/com.apple.Xco
 r0
 
 CTouch /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app
-s324819051.641415
-e324819051.644175
+s325383503.384679
+e325383503.387472
 r1
 xTouch
 x/Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app
-lSLF07#2@87"Touch /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app324819051#324819051#0(0"0(0#0#0"8621375264#164"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /usr/bin/touch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app0#
+lSLF07#2@87"Touch /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app325383503#325383503#0(0"0(0#0#0"8616970176#164"    cd /Users/arjunprakash/Working/Development/TowerOfHanoi    /usr/bin/touch -c /Users/arjunprakash/Working/Development/TowerOfHanoi/build/Debug/TowerOfHanoi.app0#
 
