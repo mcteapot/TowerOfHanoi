@@ -39,9 +39,7 @@
 		47EDC8671358889F002D99A4 /* RenderSystem_GL.dylib in Plugins */ = {isa = PBXBuildFile; fileRef = 47EDC6BD13588705002D99A4 /* RenderSystem_GL.dylib */; };
 		47EDC86B135888F9002D99A4 /* Ogre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EDC6B9135886F0002D99A4 /* Ogre.framework */; };
 		47EDC89013588C34002D99A4 /* plugins.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC87213588B2A002D99A4 /* plugins.cfg */; };
-		47EDC8A81358CE34002D99A4 /* knot.material in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8A51358CE34002D99A4 /* knot.material */; };
-		47EDC8A91358CE34002D99A4 /* knot.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8A61358CE34002D99A4 /* knot.mesh */; };
-		47EDC8AA1358CE34002D99A4 /* MtlPlat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8A71358CE34002D99A4 /* MtlPlat2.jpg */; };
+		47EDC8AA1358CE34002D99A4 /* Pole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8A71358CE34002D99A4 /* Pole.jpg */; };
 		47EDC8D71358D957002D99A4 /* Pole.material in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8D61358D957002D99A4 /* Pole.material */; };
 		47EDC8DF1358D96F002D99A4 /* Pole.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8D81358D96F002D99A4 /* Pole.mesh */; };
 		47EDC8E01358D96F002D99A4 /* Ring01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47EDC8D91358D96F002D99A4 /* Ring01.jpg */; };
@@ -124,9 +122,7 @@
 		47EDC6B9135886F0002D99A4 /* Ogre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogre.framework; path = Ogre3d/OSX/ogre/lib/Release/Ogre.framework; sourceTree = DEVELOPER_DIR; };
 		47EDC6BD13588705002D99A4 /* RenderSystem_GL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = RenderSystem_GL.dylib; path = Ogre3d/OSX/ogre/lib/Release/RenderSystem_GL.dylib; sourceTree = DEVELOPER_DIR; };
 		47EDC87213588B2A002D99A4 /* plugins.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plugins.cfg; sourceTree = "<group>"; };
-		47EDC8A51358CE34002D99A4 /* knot.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = knot.material; path = Resources/knot.material; sourceTree = "<group>"; };
-		47EDC8A61358CE34002D99A4 /* knot.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = knot.mesh; path = Resources/knot.mesh; sourceTree = "<group>"; };
-		47EDC8A71358CE34002D99A4 /* MtlPlat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MtlPlat2.jpg; path = Resources/MtlPlat2.jpg; sourceTree = "<group>"; };
+		47EDC8A71358CE34002D99A4 /* Pole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pole.jpg; path = Resources/Pole.jpg; sourceTree = "<group>"; };
 		47EDC8D61358D957002D99A4 /* Pole.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Pole.material; path = Resources/Pole.material; sourceTree = "<group>"; };
 		47EDC8D81358D96F002D99A4 /* Pole.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pole.mesh; path = Resources/Pole.mesh; sourceTree = "<group>"; };
 		47EDC8D91358D96F002D99A4 /* Ring01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ring01.jpg; path = Resources/Ring01.jpg; sourceTree = "<group>"; };
@@ -250,9 +246,7 @@
 				47EDC8DE1358D96F002D99A4 /* Ring02.mesh */,
 				47EDC8DA1358D96F002D99A4 /* Ring01.material */,
 				47EDC8D61358D957002D99A4 /* Pole.material */,
-				47EDC8A51358CE34002D99A4 /* knot.material */,
-				47EDC8A61358CE34002D99A4 /* knot.mesh */,
-				47EDC8A71358CE34002D99A4 /* MtlPlat2.jpg */,
+				47EDC8A71358CE34002D99A4 /* Pole.jpg */,
 				8D1107310486CEB800E47090 /* TowerOfHanoi-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -327,9 +321,7 @@
 				47EDC89013588C34002D99A4 /* plugins.cfg in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				47EDC8A81358CE34002D99A4 /* knot.material in Resources */,
-				47EDC8A91358CE34002D99A4 /* knot.mesh in Resources */,
-				47EDC8AA1358CE34002D99A4 /* MtlPlat2.jpg in Resources */,
+				47EDC8AA1358CE34002D99A4 /* Pole.jpg in Resources */,
 				47EDC8D71358D957002D99A4 /* Pole.material in Resources */,
 				47EDC8DF1358D96F002D99A4 /* Pole.mesh in Resources */,
 				47EDC8E01358D96F002D99A4 /* Ring01.jpg in Resources */,

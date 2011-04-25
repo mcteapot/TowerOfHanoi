@@ -548,9 +548,9 @@
 		path = Queue.h;
 		sourceTree = SOURCE_ROOT;
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {921, 4953}}";
-			sepNavSelRange = "{131, 0}";
-			sepNavVisRange = "{0, 1854}";
+			sepNavIntBoundsRect = "{{0, 0}, {659, 5772}}";
+			sepNavSelRange = "{2198, 5}";
+			sepNavVisRange = "{4219, 615}";
 		};
 	};
 	473A7959135C523500436388 /* PBXTextBookmark */ = {
@@ -758,7 +758,7 @@
 	};
 	47EDC8D61358D957002D99A4 /* Pole.material */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 503}}";
+			sepNavIntBoundsRect = "{{0, 0}, {921, 664}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 297}";
 		};
@@ -783,7 +783,7 @@
 	};
 	47EDC8E91358D98F002D99A4 /* PBXBookmark */ = {
 		isa = PBXBookmark;
-		fRef = 47EDC8A71358CE34002D99A4 /* MtlPlat2.jpg */;
+		fRef = 47EDC8A71358CE34002D99A4 /* Pole.jpg */;
 	};
 	47EDC8EA1358D98F002D99A4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
